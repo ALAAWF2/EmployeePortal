@@ -1,0 +1,410 @@
+[
+    {
+        "manager": "عبيدة السباعي",
+        "name": "1001-ANDALOS MALL",
+        "codes": [
+            "1001-C",
+            "1001-E"
+        ]
+    },
+    {
+        "manager": "شريفة العمري",
+        "name": "1002-HAIFA MALL",
+        "codes": [
+            "1002-C",
+            "1002-E"
+        ]
+    },
+    {
+        "manager": "المنطقة الغربية",
+        "name": "1003-RED SEA MALL",
+        "codes": [
+            "1003-C",
+            "1003-E"
+        ]
+    },
+    {
+        "manager": "شريفة العمري",
+        "name": "1004-ARAB MALL",
+        "codes": [
+            "1004-C",
+            "1004-E"
+        ]
+    },
+    {
+        "manager": "عبيدة السباعي",
+        "name": "1005-SALAM MALL",
+        "codes": [
+            "1005-C",
+            "1005-E"
+        ]
+    },
+    {
+        "manager": "المنطقة الغربية",
+        "name": "1006-YASMIN MALL",
+        "codes": [
+            "1006-C",
+            "1006-E"
+        ]
+    },
+    {
+        "manager": "عبيدة السباعي",
+        "name": "1007-KHAYYAT CENTER",
+        "codes": [
+            "1007-C",
+            "1007-E"
+        ]
+    },
+    {
+        "manager": "شريفة العمري",
+        "name": "1008-JEDDAH PARK MALL",
+        "codes": [
+            "1008-C",
+            "1008-E"
+        ]
+    },
+    {
+        "manager": "عبيدة السباعي",
+        "name": "1009-BASATEEN MALL",
+        "codes": [
+            "1009-C",
+            "1009-E"
+        ]
+    },
+    {
+        "manager": "المنطقة الغربية",
+        "name": "1010-VILLAGE MALL",
+        "codes": [
+            "1010-C",
+            "1010-E"
+        ]
+    },
+    {
+        "manager": "شريفة العمري",
+        "name": "1011- AZIZ MALL",
+        "codes": [
+            "1011-C",
+            "1011-E"
+        ]
+    },
+    {
+        "manager": "عبيدة السباعي",
+        "name": "1012-SAUQ7 CENTER",
+        "codes": [
+            "1012-C",
+            "1012-E"
+        ]
+    },
+    {
+        "manager": "محمدكلو",
+        "name": "1101-HAMRA MALL",
+        "codes": [
+            "1101-C",
+            "1101-E"
+        ]
+    },
+    {
+        "manager": "عبد الجليل الحبال",
+        "name": "1102-OTHAIM MALL",
+        "codes": [
+            "1102-C",
+            "1102-E"
+        ]
+    },
+    {
+        "manager": "عبد الجليل الحبال",
+        "name": "1103-RABWA MALL",
+        "codes": [
+            "1103-C",
+            "1103-E"
+        ]
+    },
+    {
+        "manager": "محمدكلو",
+        "name": "1104-NAKHEEL MALL",
+        "codes": [
+            "1104-C",
+            "1104-E"
+        ]
+    },
+    {
+        "manager": "عبدالله السرداح",
+        "name": "1105-TALA MALL",
+        "codes": [
+            "1105-C",
+            "1105-E"
+        ]
+    },
+    {
+        "manager": "محمدكلو",
+        "name": "1106-ATYAF MALL",
+        "codes": [
+            "1106-C",
+            "1106-E"
+        ]
+    },
+    {
+        "manager": "محمدكلو",
+        "name": "1107-RIYADH PARK MALL",
+        "codes": [
+            "1107-C",
+            "1107-E"
+        ]
+    },
+    {
+        "manager": "عبد الجليل الحبال",
+        "name": "1108-SALAM MALL",
+        "codes": [
+            "1108-C",
+            "1108-E"
+        ]
+    },
+    {
+        "manager": "عبدالله السرداح",
+        "name": "1109-HAYAT MALL",
+        "codes": [
+            "1109-C",
+            "1109-E"
+        ]
+    },
+    {
+        "manager": "محمدكلو",
+        "name": "1110- RIYADH GALLERY MALL",
+        "codes": [
+            "1110-C",
+            "1110-E"
+        ]
+    },
+    {
+        "manager": "محمدكلو",
+        "name": "1111-KHALEEJ MALL",
+        "codes": [
+            "1111-C",
+            "1111-E"
+        ]
+    },
+    {
+        "manager": "عبد الجليل الحبال",
+        "name": "1112-MEEM PLAZA CENTER",
+        "codes": [
+            "1112-C",
+            "1112-E"
+        ]
+    },
+    {
+        "manager": "محمدكلو",
+        "name": "1113-PARK AVENUE MALL",
+        "codes": [
+            "1113-C",
+            "1113-E"
+        ]
+    },
+    {
+        "manager": "محمدكلو",
+        "name": "1114-Malgha Mall",
+        "codes": [
+            "1114-C",
+            "1114-E"
+        ]
+    },
+    {
+        "manager": "محمدكلو",
+        "name": "1115-Alrabie Mall",
+        "codes": [
+            "1115-C",
+            "1115-E"
+        ]
+    },
+    {
+        "manager": "رضوان عطيوي",
+        "name": "1201-MAKKAH MALL",
+        "codes": [
+            "1201-C",
+            "1201-E"
+        ]
+    },
+    {
+        "manager": "رضوان عطيوي",
+        "name": "1202-SITTEN CENTER",
+        "codes": [
+            "1202-C",
+            "1202-E"
+        ]
+    },
+    {
+        "manager": "رضوان عطيوي",
+        "name": "1203- JABL OMAR MALL",
+        "codes": [
+            "1203-C",
+            "1203-E"
+        ]
+    },
+    {
+        "manager": "منطقة الطائف",
+        "name": "1301-JOURI MALL",
+        "codes": [
+            "1301-C",
+            "1301-E"
+        ]
+    },
+    {
+        "manager": "منطقة الطائف",
+        "name": "1302-KAMAL CENTER",
+        "codes": [
+            "1302-C",
+            "1302-E"
+        ]
+    },
+    {
+        "manager": "خليل الصانع",
+        "name": "1401-ALIA MALL",
+        "codes": [
+            "1401-C",
+            "1401-E"
+        ]
+    },
+    {
+        "manager": "خليل الصانع",
+        "name": "1402-NOOR MALL",
+        "codes": [
+            "1402-C",
+            "1402-E"
+        ]
+    },
+    {
+        "manager": "خليل الصانع",
+        "name": "1501-DANA MALL",
+        "codes": [
+            "1501-C",
+            "1501-E"
+        ]
+    },
+    {
+        "manager": "جهاد ايوبي",
+        "name": "1601-EHSA OTHAIM MALL",
+        "codes": [
+            "1601-C",
+            "1601-E"
+        ]
+    },
+    {
+        "manager": "جهاد ايوبي",
+        "name": "1602-EHSA MALL",
+        "codes": [
+            "1602-C",
+            "1602-E"
+        ]
+    },
+    {
+        "manager": "خليل الصانع",
+        "name": "1701-ARAR OTHAIM MALL",
+        "codes": [
+            "1701-C",
+            "1701-E"
+        ]
+    },
+    {
+        "manager": "عبدالله السرداح",
+        "name": "1801-HAIL OTHAIM MALL",
+        "codes": [
+            "1801-E",
+            "1801-C"
+        ]
+    },
+    {
+        "manager": "اماني عسيري",
+        "name": "1901-RASHID MALL",
+        "codes": [
+            "1901-C",
+            "1901-E"
+        ]
+    },
+    {
+        "manager": "اماني عسيري",
+        "name": "1902-KHAMIS AVENUE",
+        "codes": [
+            "1902-C",
+            "1902-E"
+        ]
+    },
+    {
+        "manager": "اماني عسيري",
+        "name": "1903-MUJAN PARK MALL",
+        "codes": [
+            "1903-C",
+            "1903-E"
+        ]
+    },
+    {
+        "manager": "اماني عسيري",
+        "name": "1904-BAHA MALL",
+        "codes": [
+            "1904-C",
+            "1904-E"
+        ]
+    },
+    {
+        "manager": "اماني عسيري",
+        "name": "1906-LAVANDA PARK",
+        "codes": [
+            "1906-C",
+            "1906-E"
+        ]
+    },
+    {
+        "manager": "خليل الصانع",
+        "name": "2001-TAPUK PARK MALL",
+        "codes": [
+            "2001-C",
+            "2001-E"
+        ]
+    },
+    {
+        "manager": "جهاد ايوبي",
+        "name": "2101-DHAHRAN MALL",
+        "codes": [
+            "2101-C",
+            "2101-E"
+        ]
+    },
+    {
+        "manager": "جهاد ايوبي",
+        "name": "2102-NAKHEEL MALL",
+        "codes": [
+            "2102-C",
+            "2102-E"
+        ]
+    },
+    {
+        "manager": "جهاد ايوبي",
+        "name": "2103-DAREEN MALL",
+        "codes": [
+            "2103-C",
+            "2103-E"
+        ]
+    },
+    {
+        "manager": "جهاد ايوبي",
+        "name": "2201-JUBAIL MALL",
+        "codes": [
+            "2201-C",
+            "2201-E"
+        ]
+    },
+    {
+        "manager": "خليل الصانع",
+        "name": "2301-JOUF MALL",
+        "codes": [
+            "2301-C",
+            "2301-E"
+        ]
+    },
+    {
+        "manager": "عبدالله السرداح",
+        "name": "2401-NAKHEEL PLAZA MALL",
+        "codes": [
+            "2401-C",
+            "2401-E"
+        ]
+    }
+]

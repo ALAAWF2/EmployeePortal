@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة تحكم المدراء - Orange Bed & Bath</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="data.js"></script>
+    <script>
+        if(localStorage.getItem("loggedIn") !== "true"){
+            window.location = "login.html";
+        }
+    </script>
+    <style>
+        :root {
+            --primary: #ff7a00;
+            --primary-hover: #e66d00;
+            --bg-color: #f4f7fe;
+            --white: #ffffff;
+            --text-main: #2b3674;
+            --text-sec: #a3aed1;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            --border-radius: 16px;
+        }
+
+        body {
+            font-family: 'Tajawal', Arial, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo {
+            height: 40px;
+        }
+
+        .header-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .manager-name {
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .btn-logout {
+            background: #ff4757;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-family: 'Tajawal', sans-serif;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-logout:hover {
+            background: #ff6b81;
+            transform: translateY(-2px);
+        }
+
+        .main-content {
+            width: 90%;
+            max-width: 1200px;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .stats-cards {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            padding: 24px;
+            flex: 1;
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .card-title {
+            color: var(--text-sec);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .card-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .table-container {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 24px;
+            overflow: hidden;
+        }
+
+        .table-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .table-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #f8f9fc;
+            color: var(--text-sec);
+            font-weight: 500;
+            text-align: right;
+            padding: 15px;
+            border-bottom: 2px solid #edf2f7;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #edf2f7;
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        tr:hover td {
+            background: #f8f9fc;
+        }
+
+        .badge {
+            background: rgba(255, 122, 0, 0.1);
+            color: var(--primary);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        .btn-remove {
+            background: #ffe3e3;
+            color: #ff4757;
+            border: 1px solid #ff4757;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-family: inherit;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .btn-remove:hover {
+            background: #ff4757;
+            color: white;
+        }
+
+        /* Modal Styles */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+            backdrop-filter: blur(4px);
+            align-items: center;
+            justify-content: center;
+        }
+        .modal {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .modal-header {
+            padding: 20px 24px;
+            background: #f8f9fc;
+            border-bottom: 1px solid #edf2f7;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .modal-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--text-sec);
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .close-btn:hover { color: #ff4757; }
+        
+        .modal-section {
+            padding: 24px;
+            border-bottom: 1px solid #edf2f7;
+        }
+        .section-title {
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--primary);
+            font-size: 1.1rem;
+        }
+        
+        .showroom-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            background: #f8f9fc;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .btn-sm-remove {
+            background: #ffe3e3;
+            color: #ff4757;
+            border: 1px solid #ff4757;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-family: inherit;
+            font-weight: bold;
+            font-size: 0.8rem;
+            cursor: pointer;
+        }
+        .btn-sm-remove:hover { background: #ff4757; color: white; }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+        .form-group select {
+            padding: 10px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 1rem;
+            background: var(--white);
+        }
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-family: inherit;
+            font-weight: 700;
+            cursor: pointer;
+            width: 100%;
+            transition: 0.2s;
+        }
+        .btn-primary:hover { background: var(--primary-hover); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+            <img src="logo.png.jpg" alt="Logo" class="logo">
+            <span class="header-title">لوحة تحكم المدراء</span>
+        </div>
+        <div class="user-info">
+            <span>مرحباً، <span class="manager-name" id="managerName"></span></span>
+            <button class="btn-logout" onclick="logout()">تسجيل الخروج</button>
+        </div>
+    </header>
+
+    <div class="main-content">
+        
+        <div class="stats-cards">
+            <div class="card">
+                <span class="card-title">إجمالي الموظفين</span>
+                <span class="card-value" id="totalEmployees">0</span>
+            </div>
+            <div class="card">
+                <span class="card-title">عدد المعارض</span>
+                <span class="card-value" id="totalOutlets">0</span>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <div class="table-header">
+                <span class="table-title">قائمة الموظفين</span>
+            </div>
+            <div style="overflow-x: auto;">
+                <table id="employeesTable">
+                    <thead>
+                        <tr>
+                            <th>الاسم</th>
+                            <th>الرقم الوظيفي</th>
+                            <th>المعرض</th>
+                            <th>تاريخ المباشرة</th>
+                            <th>إجراء</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- سيتم إضافة الموظفين هنا -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Manager Actions Modal -->
+    <div class="modal-overlay" id="manageModal" onclick="if(event.target===this) closeModal()">
+        <div class="modal">
+            <div class="modal-header">
+                <span class="modal-title">إدارة الموظف: <span id="modalEmpName"></span></span>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            
+            <div class="modal-section">
+                <div class="section-title">📦 إزالة من معرض محدد</div>
+                <div id="modalShowroomsList">
+                    <!-- Specific showroom items injected here -->
+                </div>
+            </div>
+
+            <div class="modal-section" style="border-bottom: none;">
+                <div class="section-title">🔄 نقل إلى معرض آخر</div>
+                <div class="form-group">
+                    <label>نقل من المعرض (الحالي):</label>
+                    <select id="transferFromSelect">
+                        <!-- Current showrooms injected here -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>الوجهة (المعرض الجديد):</label>
+                    <select id="transferToSelect">
+                        <!-- All showrooms injected here -->
+                    </select>
+                </div>
+                <button class="btn-primary" onclick="submitTransfer()">تأكيد نقل واستبدال المعرض</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Set manager name
+        const manager = localStorage.getItem("manager");
+        document.getElementById("managerName").innerText = manager || "زائر";
+
+        // Filter employees
+        let myEmployees = typeof EMPLOYEES !== "undefined" ? EMPLOYEES.filter(emp => emp.manager === manager) : [];
+        
+        // Update stats
+        document.getElementById("totalEmployees").innerText = myEmployees.length;
+        
+        // Unique outlets count
+        let uniqueOutlets = new Set();
+        myEmployees.forEach(emp => {
+            if(emp.showroom) {
+                emp.showroom.split(" و ").forEach(s => {
+                    if(s.trim()) uniqueOutlets.add(s.trim());
+                });
+            }
+        });
+        document.getElementById("totalOutlets").innerText = uniqueOutlets.size;
+
+        // Populate table
+        let tableBody = document.querySelector("#employeesTable tbody");
+        if(tableBody) {
+            myEmployees.forEach(emp => {
+                let showrooms = (emp.showroom || "").split(" و ");
+                let badgesHtml = showrooms.map(s => `<span class="badge" style="margin-left:5px;">${s}</span>`).join("");
+                
+                let tr = document.createElement("tr");
+                tr.innerHTML = `
+                    <td>${emp.name}</td>
+                    <td><strong>${emp.personnelNumber}</strong></td>
+                    <td>${badgesHtml}</td>
+                    <td>${emp.startDate}</td>
+                    <td>
+                        <button class="btn-remove" style="background:#eef2ff; color:#4318ff; border-color:#4318ff;" 
+                            onclick="openManageModal('${emp.personnelNumber}')">إدارة متقدمة ⚙️</button>
+                    </td>
+                `;
+                tableBody.appendChild(tr);
+            });
+        }
+        
+        let activeEmp = null;
+
+        function openManageModal(personnelNum) {
+            activeEmp = myEmployees.find(e => e.personnelNumber === personnelNum);
+            if(!activeEmp) return;
+            
+            document.getElementById("modalEmpName").innerText = activeEmp.name;
+            
+            // 1. Build List of Showrooms to Remove
+            let listHtml = "";
+            let transferFromOptions = "";
+            
+            if(activeEmp.showroomDetails && activeEmp.showroomDetails.length > 0) {
+                activeEmp.showroomDetails.forEach((shw, index) => {
+                    let encodedCodes = JSON.stringify(shw.codes).replace(/"/g, '&quot;');
+                    listHtml += `
+                        <div class="showroom-item">
+                            <span>${shw.name}</span>
+                            <button class="btn-sm-remove" onclick="removeSpecificShowroom('${shw.name}', ${encodedCodes}, event)">إزالة من هنا</button>
+                        </div>
+                    `;
+                    transferFromOptions += `<option value='${encodedCodes}'>${shw.name}</option>`;
+                });
+            } else {
+                listHtml = "<div>لا يوحد تفاصيل دقيقة.</div>";
+            }
+            document.getElementById("modalShowroomsList").innerHTML = listHtml;
+            document.getElementById("transferFromSelect").innerHTML = transferFromOptions;
+            
+            // 2. Build List of All Showrooms to Transfer To
+            let transferToOptions = "<option value='' disabled selected>-- اختر المعرض الجديد --</option>";
+            if(typeof ALL_SHOWROOMS !== "undefined") {
+                ALL_SHOWROOMS.forEach(shw => {
+                    let encodedCodes = JSON.stringify(shw.codes).replace(/"/g, '&quot;');
+                    transferToOptions += `<option value='${encodedCodes}'>${shw.name}</option>`;
+                });
+            }
+            document.getElementById("transferToSelect").innerHTML = transferToOptions;
+            
+            document.getElementById("manageModal").style.display = "flex";
+        }
+        
+        function closeModal() {
+            document.getElementById("manageModal").style.display = "none";
+            activeEmp = null;
+        }
+
+        async function removeSpecificShowroom(shwName, codesToRemove, event) {
+            if(!confirm(`هل أنت متأكد من إزالة الموظف من معرض "${shwName}" فقط؟`)) return;
+            
+            let btn = event.target;
+            let origText = btn.innerText;
+            btn.innerText = "جاري الإزالة...";
+            btn.disabled = true;
+            
+            try {
+                let res = await fetch("http://localhost:5000/remove_employee", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify({
+                        personnelNumber: activeEmp.personnelNumber,
+                        addressBookCodes: codesToRemove
+                    })
+                });
+                let data = await res.json();
+                if(res.ok) {
+                    alert("تم إزالة الموظف بنجاح!");
+                    window.location.reload();
+                } else {
+                    alert("حدث خطأ: " + data.error);
+                    btn.innerText = origText;
+                    btn.disabled = false;
+                }
+            } catch (err) {
+                alert("تعذر الاتصال بالسيرفر! تأكد من أن السيرفر يعمل.");
+                console.error(err);
+                btn.innerText = origText;
+                btn.disabled = false;
+            }
+        }
+        
+        async function submitTransfer() {
+            let fromSelect = document.getElementById("transferFromSelect").value;
+            let toSelect = document.getElementById("transferToSelect").value;
+            
+            if(!fromSelect || !toSelect) {
+                alert("الرجاء تحديد المعرض الحالي والمعرض الجديد الوجهة.");
+                return;
+            }
+            
+            if(fromSelect === toSelect) {
+                alert("المعرض القديم والجديد متطابقان!");
+                return;
+            }
+            
+            let oldCodes = JSON.parse(fromSelect);
+            let newCodes = JSON.parse(toSelect);
+            
+            if(!confirm("هل أنت متأكد من نقل الموظف؟ هذا سيحذفه من معرضه الحالي ويضيفه للمعرض الجديد فوراً.")) return;
+            
+            let btn = document.querySelector(".btn-primary");
+            let origText = btn.innerText;
+            btn.innerText = "جاري النقل...";
+            btn.disabled = true;
+            
+            try {
+                let res = await fetch("http://localhost:5000/transfer_employee", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify({
+                        personnelNumber: activeEmp.personnelNumber,
+                        oldAddressBookCodes: oldCodes,
+                        newAddressBookCodes: newCodes
+                    })
+                });
+                let data = await res.json();
+                if(res.ok) {
+                    alert("تم نقل الموظف بنجاح للوجهة الجديدة!");
+                    window.location.reload();
+                } else {
+                    alert("حدث خطأ: " + data.error);
+                    btn.innerText = origText;
+                    btn.disabled = false;
+                }
+            } catch (err) {
+                alert("تعذر الاتصال بالسيرفر! تأكد من أن السيرفر يعمل.");
+                console.error(err);
+                btn.innerText = origText;
+                btn.disabled = false;
+            }
+        }
+
+
+
+        // Logout function
+        function logout() {
+            localStorage.clear();
+            window.location = "login.html";
+        }
+    </script>
+
+</body>
+</html>

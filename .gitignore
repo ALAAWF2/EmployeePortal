@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+linaproj.zip
+metadata.xml
+debug.txt

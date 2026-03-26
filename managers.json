@@ -1,0 +1,119 @@
+[
+    {
+        "username": "عبيدة السباعي",
+        "password": "0000",
+        "outlets": [
+            "1001-ANDALOS MALL",
+            "1005-SALAM MALL",
+            "1007-KHAYYAT CENTER",
+            "1009-BASATEEN MALL",
+            "1012-SAUQ7 CENTER"
+        ]
+    },
+    {
+        "username": "شريفة العمري",
+        "password": "0000",
+        "outlets": [
+            "1002-HAIFA MALL",
+            "1004-ARAB MALL",
+            "1008-JEDDAH PARK MALL",
+            "1011- AZIZ MALL"
+        ]
+    },
+    {
+        "username": "المنطقة الغربية",
+        "password": "0000",
+        "outlets": [
+            "1003-RED SEA MALL",
+            "1006-YASMIN MALL",
+            "1010-VILLAGE MALL"
+        ]
+    },
+    {
+        "username": "محمدكلو",
+        "password": "0000",
+        "outlets": [
+            "1101-HAMRA MALL",
+            "1104-NAKHEEL MALL",
+            "1106-ATYAF MALL",
+            "1107-RIYADH PARK MALL",
+            "1110- RIYADH GALLERY MALL",
+            "1111-KHALEEJ MALL",
+            "1113-PARK AVENUE MALL",
+            "1114-Malgha Mall",
+            "1115-Alrabie Mall"
+        ]
+    },
+    {
+        "username": "عبد الجليل الحبال",
+        "password": "0000",
+        "outlets": [
+            "1102-OTHAIM MALL",
+            "1103-RABWA MALL",
+            "1108-SALAM MALL",
+            "1112-MEEM PLAZA CENTER"
+        ]
+    },
+    {
+        "username": "عبدالله السرداح",
+        "password": "0000",
+        "outlets": [
+            "1105-TALA MALL",
+            "1109-HAYAT MALL",
+            "1801-HAIL OTHAIM MALL",
+            "2401-NAKHEEL PLAZA MALL"
+        ]
+    },
+    {
+        "username": "رضوان عطيوي",
+        "password": "0000",
+        "outlets": [
+            "1201-MAKKAH MALL",
+            "1202-SITTEN CENTER",
+            "1203- JABL OMAR MALL"
+        ]
+    },
+    {
+        "username": "منطقة الطائف",
+        "password": "0000",
+        "outlets": [
+            "1301-JOURI MALL",
+            "1302-KAMAL CENTER"
+        ]
+    },
+    {
+        "username": "خليل الصانع",
+        "password": "0000",
+        "outlets": [
+            "1401-ALIA MALL",
+            "1402-NOOR MALL",
+            "1501-DANA MALL",
+            "1701-ARAR OTHAIM MALL",
+            "2001-TAPUK PARK MALL",
+            "2301-JOUF MALL"
+        ]
+    },
+    {
+        "username": "جهاد ايوبي",
+        "password": "0000",
+        "outlets": [
+            "1601-EHSA OTHAIM MALL",
+            "1602-EHSA MALL",
+            "2101-DHAHRAN MALL",
+            "2102-NAKHEEL MALL",
+            "2103-DAREEN MALL",
+            "2201-JUBAIL MALL"
+        ]
+    },
+    {
+        "username": "اماني عسيري",
+        "password": "0000",
+        "outlets": [
+            "1901-RASHID MALL",
+            "1902-KHAMIS AVENUE",
+            "1903-MUJAN PARK MALL",
+            "1904-BAHA MALL",
+            "1906-LAVANDA PARK"
+        ]
+    }
+]

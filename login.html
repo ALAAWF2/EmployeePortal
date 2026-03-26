@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>تسجيل دخول المدراء - Orange Bed & Bath</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f4f6f9;
+display:flex;
+align-items:center;
+justify-content:center;
+height:100vh;
+}
+
+.box{
+background:white; 
+width:90%; 
+max-width:420px;
+padding:30px;
+border-radius:12px; 
+box-shadow:0 4px 15px rgba(0,0,0,0.1); 
+text-align:center;
+}
+
+input, select{
+  width:100%;
+  padding:14px;
+  margin-top:10px;
+  border:1px solid #ccc;
+  border-radius:8px;
+  font-size:16px;
+  box-sizing:border-box;
+}
+
+button{
+  width:100%;
+  margin-top:20px;
+  padding:14px;
+  background:#ff7a00;
+  border:none;
+  color:white;
+  font-size:17px;
+  border-radius:8px;
+  cursor:pointer;
+  box-sizing:border-box;
+}
+
+button:hover{
+background:#e66d00;
+}
+
+.logo{
+display:block;
+margin:auto;
+width:140px;
+margin-bottom:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+<img src="logo.png.jpg" class="logo">
+<h2>تسجيل دخول المدراء</h2>
+
+<select id="username">
+    <option value="" disabled selected>اختر اسم المدير</option>
+</select>
+
+<input id="password" type="password" placeholder="Password">
+
+<button id="loginBtn" onclick="login()">تسجيل الدخول</button>
+
+</div>
+
+<script src="data.js"></script>
+<script>
+
+window.onload = function() {
+    let select = document.getElementById("username");
+    MANAGERS.forEach(m => {
+        let option = document.createElement("option");
+        option.value = m.username;
+        option.text = m.username;
+        select.appendChild(option);
+    });
+};
+
+function login(){
+
+let user = document.getElementById("username").value.trim();
+let pass = document.getElementById("password").value.trim();
+
+let foundManager = MANAGERS.find(m => m.username === user && m.password === pass);
+
+if(foundManager){
+
+localStorage.setItem("loggedIn", "true");
+localStorage.setItem("manager", foundManager.username);
+localStorage.setItem("outlets", JSON.stringify(foundManager.outlets));
+
+window.location = "index.html";
+
+}else{
+
+alert("اسم المستخدم أو كلمة المرور غير صحيحة");
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
+
+
