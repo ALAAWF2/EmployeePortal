@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>لوحة تحكم المدراء - Orange Bed & Bath</title>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="data.js"></script>
+    <!-- منع الكاش التلقائي لملف البيانات -->
+    <script>
+        document.write('<script src="data.js?v=' + new Date().getTime() + '"><\/script>');
+    </script>
     <script>
         if(localStorage.getItem("loggedIn") !== "true"){
             window.location = "login.html";
@@ -505,8 +508,8 @@
                 });
                 let data = await res.json();
                 if(res.ok) {
-                    alert("تم إزالة الموظف بنجاح!");
-                    window.location.reload();
+                    alert("✅ تمت الإزالة بنجاح!\n\nيقوم السيرفر الآن بتحديث النظام في الخلفية. يرجى تحديث الصفحة بعد دقيقتين لرؤية النتيجة.");
+                    closeModal();
                 } else {
                     alert("حدث خطأ: " + data.error);
                     btn.innerText = origText;
@@ -556,8 +559,8 @@
                 });
                 let data = await res.json();
                 if(res.ok) {
-                    alert("تم نقل الموظف بنجاح للوجهة الجديدة!");
-                    window.location.reload();
+                    alert("✅ تم نقل الموظف بنجاح للوجهة الجديدة!\n\nيقوم السيرفر الآن بتحديث النظام في الخلفية. يرجى تحديث الصفحة بعد دقيقتين لرؤية النتيجة.");
+                    closeModal();
                 } else {
                     alert("حدث خطأ: " + data.error);
                     btn.innerText = origText;

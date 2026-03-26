@@ -180,8 +180,9 @@ def remove_employee():
     if not success:
         return jsonify({"error": msg}), 500
 
-    # Trigger GitHub Action to regenerate JSONs instead of running locally
-    trigger_github_action()
+    # Trigger GitHub Action asynchronously
+    import threading
+    threading.Thread(target=trigger_github_action).start()
 
     return jsonify({
         "status": "success",
@@ -208,8 +209,9 @@ def transfer_employee():
     if not success:
         return jsonify({"error": msg}), 500
 
-    # Trigger GitHub Action to regenerate JSONs instead of running locally
-    trigger_github_action()
+    # Trigger GitHub Action asynchronously
+    import threading
+    threading.Thread(target=trigger_github_action).start()
 
     return jsonify({
         "status": "success",
