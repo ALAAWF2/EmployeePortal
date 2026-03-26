@@ -1,57 +1,57 @@
 const MANAGERS = [
     {
         "username": "شريفة العمري",
-        "password": "0000",
+        "password": "8491",
         "outlets": []
     },
     {
         "username": "اماني عسيري",
-        "password": "0000",
+        "password": "3698",
         "outlets": []
     },
     {
         "username": "عبيدة السباعي",
-        "password": "0000",
+        "password": "1647",
         "outlets": []
     },
     {
         "username": "محمدكلو",
-        "password": "0000",
+        "password": "4891",
         "outlets": []
     },
     {
         "username": "المنطقة الغربية",
-        "password": "0000",
+        "password": "1478",
         "outlets": []
     },
     {
         "username": "خليل الصانع",
-        "password": "0000",
+        "password": "2131",
         "outlets": []
     },
     {
         "username": "رضوان عطيوي",
-        "password": "0000",
+        "password": "7643",
         "outlets": []
     },
     {
         "username": "عبد الجليل الحبال",
-        "password": "0000",
+        "password": "1637",
         "outlets": []
     },
     {
         "username": "جهاد ايوبي",
-        "password": "0000",
+        "password": "2587",
         "outlets": []
     },
     {
         "username": "منطقة الطائف",
-        "password": "0000",
+        "password": "6342",
         "outlets": []
     },
     {
         "username": "عبدالله السرداح",
-        "password": "0000",
+        "password": "4618",
         "outlets": []
     }
 ];
@@ -3394,7 +3394,7 @@ const EMPLOYEES = [
         "name": "حسين عيون السود",
         "startDate": "2024-11-16",
         "manager": "عبيدة السباعي",
-        "showroom": "1007-KHAYYAT CENTER و 1009-BASATEEN MALL",
+        "showroom": "1007-KHAYYAT CENTER",
         "showroomDetails": [
             {
                 "name": "1007-KHAYYAT CENTER",
@@ -3402,16 +3402,9 @@ const EMPLOYEES = [
                     "1007-C",
                     "1007-E"
                 ]
-            },
-            {
-                "name": "1009-BASATEEN MALL",
-                "codes": [
-                    "1009-C",
-                    "1009-E"
-                ]
             }
         ],
-        "addressBooks": "1007-C;1007-E;1009-C;1009-E"
+        "addressBooks": "1007-C;1007-E"
     },
     {
         "employeeId": "4396-غيداء مكي",
