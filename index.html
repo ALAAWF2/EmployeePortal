@@ -495,7 +495,7 @@
             btn.disabled = true;
             
             try {
-                let res = await fetch("http://localhost:5000/remove_employee", {
+                let res = await fetch("https://employeeportal-bqpn.onrender.com/remove_employee", {
                     method: "POST",
                     headers: {"Content-Type": "application/json"},
                     body: JSON.stringify({
@@ -545,7 +545,7 @@
             btn.disabled = true;
             
             try {
-                let res = await fetch("http://localhost:5000/transfer_employee", {
+                let res = await fetch("https://employeeportal-bqpn.onrender.com/transfer_employee", {
                     method: "POST",
                     headers: {"Content-Type": "application/json"},
                     body: JSON.stringify({
