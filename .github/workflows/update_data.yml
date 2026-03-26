@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# هذا الأمر يمنع تضارب الروبوتات عند طلب التحديث من أكثر من مدير في نفس الوقت
+concurrency:
+  group: update_data_group
+  cancel-in-progress: true
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
