@@ -153,6 +153,10 @@ def trigger_github_action(event_type="update_data"):
     except Exception as e:
         print(f"Failed to trigger GitHub Action: {e}")
 
+@app.route('/', methods=['GET'])
+def health_check():
+    return "Server is alive and running!", 200
+
 @app.route('/remove_employee', methods=['POST', 'OPTIONS'])
 def remove_employee():
     if request.method == 'OPTIONS':
