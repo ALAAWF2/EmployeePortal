@@ -37,6 +37,8 @@ jobs:
         run: python "اسامي موظفين.py"
 
       - name: Generate Frontend Data
+        env:
+          MANAGERS_PASSWORDS: ${{ secrets.MANAGERS_PASSWORDS }}
         run: python process_employees.py
 
       - name: Commit and Push Changes

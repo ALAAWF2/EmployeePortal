@@ -36,6 +36,14 @@ def process():
     employees_data = load_data()
     all_mapping, code_to_meta = load_showroom_mapping()
 
+    custom_passwords = {}
+    env_passwords = os.environ.get("MANAGERS_PASSWORDS")
+    if env_passwords:
+        try:
+            custom_passwords = json.loads(env_passwords)
+        except Exception as e:
+            print("Failed to decode MANAGERS_PASSWORDS", e)
+
     results = []
     unique_managers = [] # To store unique managers for the MANAGERS JSON
 
@@ -92,7 +100,8 @@ def process():
             # Collect all showroom names and details for this employee
             for mgr, shw_map in employee_showrooms_map.items():
                 if mgr not in [m["username"] for m in unique_managers]:
-                    unique_managers.append({"username": mgr, "password": "0000", "outlets": []}) # Outlets will be populated later if needed, or removed if not used.
+                    mgr_password = custom_passwords.get(mgr, "0000")
+                    unique_managers.append({"username": mgr, "password": mgr_password, "outlets": []}) # Outlets will be populated later if needed, or removed if not used.
                 
                 for shw_name, details in shw_map.items():
                     if shw_name not in my_showrooms: # Avoid duplicate showroom names in the string
