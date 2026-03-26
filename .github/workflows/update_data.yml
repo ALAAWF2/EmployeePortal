@@ -1,0 +1,47 @@
+name: Cloud Robot Update (Data Gen)
+
+on:
+  repository_dispatch:
+    types: [update_data]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas msal python-dotenv
+
+      - name: Create .env file from secrets
+        run: |
+          echo "CLIENT_ID=${{ secrets.CLIENT_ID }}" >> .env
+          echo "CLIENT_SECRET=${{ secrets.CLIENT_SECRET }}" >> .env
+          echo "TENANT_ID=${{ secrets.TENANT_ID }}" >> .env
+          echo "RESOURCE_URL=https://orangepax.operations.eu.dynamics.com" >> .env
+
+      - name: Fetch from Dynamics 365
+        run: python "اسامي موظفين.py"
+
+      - name: Generate Frontend Data
+        run: python process_employees.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "Cloud Robot"
+          git config --global user.email "bot@employeeportal.local"
+          git add employees.json data.js
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated update of employee data" && git push)

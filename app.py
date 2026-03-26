@@ -134,6 +134,25 @@ def update_d365_address_books(personnel_num, codes_to_remove, codes_to_add=[]):
         return False, f"Failed: {update_res.status_code} - {update_res.text}"
 
 
+
+
+def trigger_github_action(event_type="update_data"):
+    github_token = os.getenv("GITHUB_PAT")
+    if not github_token:
+        print("No GITHUB_PAT configured. Cannot trigger GitHub Action.")
+        return
+    url = "https://api.github.com/repos/ALAAWF2/EmployeePortal/dispatches"
+    headers = {
+        "Authorization": f"token {github_token}",
+        "Accept": "application/vnd.github.v3+json"
+    }
+    data = {"event_type": event_type}
+    try:
+        response = requests.post(url, json=data, headers=headers)
+        print(f"Triggered GitHub Action: {response.status_code} - {response.text}")
+    except Exception as e:
+        print(f"Failed to trigger GitHub Action: {e}")
+
 @app.route('/remove_employee', methods=['POST', 'OPTIONS'])
 def remove_employee():
     if request.method == 'OPTIONS':
@@ -161,11 +180,8 @@ def remove_employee():
     if not success:
         return jsonify({"error": msg}), 500
 
-    # Trigger local Python script to regenerate jsons immediately
-    try:
-        subprocess.Popen(["python", "process_employees.py"])
-    except Exception as local_e:
-        print("WARNING: D365 Update succeeded but local update failed:", str(local_e))
+    # Trigger GitHub Action to regenerate JSONs instead of running locally
+    trigger_github_action()
 
     return jsonify({
         "status": "success",
@@ -192,11 +208,8 @@ def transfer_employee():
     if not success:
         return jsonify({"error": msg}), 500
 
-    # Trigger local script to regenerate jsons
-    try:
-        subprocess.Popen(["python", "process_employees.py"])
-    except Exception as local_e:
-        print("WARNING: D365 Update succeeded but local update failed:", str(local_e))
+    # Trigger GitHub Action to regenerate JSONs instead of running locally
+    trigger_github_action()
 
     return jsonify({
         "status": "success",
