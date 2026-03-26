@@ -379,7 +379,7 @@
                 </div>
             </div>
 
-            <div class="modal-section" style="border-bottom: none;">
+            <div class="modal-section" style="border-bottom: 1px solid #edf2f7;">
                 <div class="section-title">🔄 نقل إلى معرض آخر</div>
                 <div class="form-group">
                     <label>نقل من المعرض (الحالي):</label>
@@ -394,6 +394,17 @@
                     </select>
                 </div>
                 <button class="btn-primary" onclick="submitTransfer()">تأكيد نقل واستبدال المعرض</button>
+            </div>
+
+            <div class="modal-section" style="border-bottom: none;">
+                <div class="section-title">➕ إضافة لمعرض إضافي (بدون نقل)</div>
+                <div class="form-group">
+                    <label>الوجهة (المعرض الإضافي):</label>
+                    <select id="addToSelect">
+                        <!-- All showrooms injected here -->
+                    </select>
+                </div>
+                <button id="btnAdd" class="btn-primary" style="background: #10b981;" onclick="submitAdd()">تأكيد إضافة الموظف للمعرض المختار</button>
             </div>
         </div>
     </div>
@@ -480,6 +491,7 @@
                 });
             }
             document.getElementById("transferToSelect").innerHTML = transferToOptions;
+            document.getElementById("addToSelect").innerHTML = transferToOptions;
             
             document.getElementById("manageModal").style.display = "flex";
         }
@@ -574,7 +586,48 @@
             }
         }
 
-
+        async function submitAdd() {
+            let toSelect = document.getElementById("addToSelect").value;
+            
+            if(!toSelect) {
+                alert("الرجاء تحديد المعرض الإضافي.");
+                return;
+            }
+            
+            let newCodes = JSON.parse(toSelect);
+            
+            if(!confirm("هل أنت متأكد من إضافة الموظف لهذا المعرض؟ لن يتم حذفه من معارضه الحالية.")) return;
+            
+            let btn = document.getElementById("btnAdd");
+            let origText = btn.innerText;
+            btn.innerText = "جاري الإضافة...";
+            btn.disabled = true;
+            
+            try {
+                let res = await fetch("https://employeeportal-bqpn.onrender.com/add_employee", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify({
+                        personnelNumber: activeEmp.personnelNumber,
+                        addressBookCodes: newCodes
+                    })
+                });
+                let data = await res.json();
+                if(res.ok) {
+                    alert("✅ تمت إضافة الموظف بنجاح المعرض المحدد!\n\nيتم تحديث البيانات بالخلفية السحابية حاليا.\nيرجى الانتظار وتحديث الصفحة خلال دقيقة.");
+                    closeModal();
+                } else {
+                    alert("حدث خطأ: " + data.error);
+                    btn.innerText = origText;
+                    btn.disabled = false;
+                }
+            } catch (err) {
+                alert("تعذر الاتصال بالسيرفر! تأكد من أن السيرفر يعمل.");
+                console.error(err);
+                btn.innerText = origText;
+                btn.disabled = false;
+            }
+        }
 
         // Logout function
         function logout() {

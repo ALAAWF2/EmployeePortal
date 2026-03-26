@@ -189,6 +189,34 @@ def remove_employee():
         "message": f"Successfully removed address books: {codes_to_remove}"
     }), 200
 
+@app.route('/add_employee', methods=['POST', 'OPTIONS'])
+def add_employee():
+    if request.method == 'OPTIONS':
+        return '', 200
+        
+    data = request.json
+    if not data or 'personnelNumber' not in data or 'addressBookCodes' not in data:
+        return jsonify({"error": "Missing parameters"}), 400
+        
+    personnel_num = data['personnelNumber']
+    codes_to_add = data['addressBookCodes']
+    
+    print(f"Adding {personnel_num} to: {codes_to_add}")
+    
+    success, msg = update_d365_address_books(personnel_num, [], codes_to_add)
+    
+    if not success:
+        return jsonify({"error": msg}), 500
+
+    # Trigger GitHub Action asynchronously
+    import threading
+    threading.Thread(target=trigger_github_action).start()
+
+    return jsonify({
+        "status": "success",
+        "message": "Add successful"
+    }), 200
+
 @app.route('/transfer_employee', methods=['POST', 'OPTIONS'])
 def transfer_employee():
     if request.method == 'OPTIONS':
