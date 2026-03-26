@@ -4128,15 +4128,8 @@ const EMPLOYEES = [
         "name": "اثير شراحيلي",
         "startDate": "2025-04-22",
         "manager": "محمدكلو",
-        "showroom": "1104-NAKHEEL MALL و 1115-Alrabie Mall",
+        "showroom": "1115-Alrabie Mall",
         "showroomDetails": [
-            {
-                "name": "1104-NAKHEEL MALL",
-                "codes": [
-                    "1104-C",
-                    "1104-E"
-                ]
-            },
             {
                 "name": "1115-Alrabie Mall",
                 "codes": [
@@ -4145,7 +4138,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1104-C;1104-E;1115-C;1115-E"
+        "addressBooks": "1115-C;1115-E"
     },
     {
         "employeeId": "4565-Mashael Fahad AlAmri",
@@ -8590,7 +8583,7 @@ const EMPLOYEES = [
         "name": "لجين الروقي",
         "startDate": "2026-02-11",
         "manager": "المنطقة الغربية",
-        "showroom": "1006-YASMIN MALL",
+        "showroom": "1006-YASMIN MALL و 1010-VILLAGE MALL",
         "showroomDetails": [
             {
                 "name": "1006-YASMIN MALL",
@@ -8598,9 +8591,16 @@ const EMPLOYEES = [
                     "1006-C",
                     "1006-E"
                 ]
+            },
+            {
+                "name": "1010-VILLAGE MALL",
+                "codes": [
+                    "1010-C",
+                    "1010-E"
+                ]
             }
         ],
-        "addressBooks": "1006-C;1006-E"
+        "addressBooks": "1006-C;1006-E;1010-C;1010-E"
     },
     {
         "employeeId": "4873-فاطمة المرحبي",
