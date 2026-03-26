@@ -44,6 +44,10 @@ def process():
         addr_books = worker.get("AddressBooks", "")
         personnel_num = worker.get("PersonnelNumber", "")
         
+        # Exclude specific managers/admins who shouldn't appear in showrooms
+        if str(personnel_num) in ["999999", "3829", "2855"]:
+            continue
+            
         # Prefer NameAlias (Arabic) otherwise fallback to Name
         # Check if NameAlias is missing or just english
         name_alias = worker.get("NameAlias", "")
