@@ -4675,17 +4675,17 @@ const EMPLOYEES = [
         "name": "شدى يحي عسيري",
         "startDate": "2025-07-01",
         "manager": "شريفة العمري",
-        "showroom": "1004-ARAB MALL",
+        "showroom": "1002-HAIFA MALL",
         "showroomDetails": [
             {
-                "name": "1004-ARAB MALL",
+                "name": "1002-HAIFA MALL",
                 "codes": [
-                    "1004-C",
-                    "1004-E"
+                    "1002-C",
+                    "1002-E"
                 ]
             }
         ],
-        "addressBooks": "1004-C;1004-E"
+        "addressBooks": "1002-C;1002-E"
     },
     {
         "employeeId": "4635-عائشه محمد البركاتي",
