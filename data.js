@@ -3544,16 +3544,9 @@ const EMPLOYEES = [
         "personnelNumber": "4420",
         "name": "اجمل",
         "startDate": "2024-12-03",
-        "manager": "عبيدة السباعي",
-        "showroom": "1001-ANDALOS MALL و 1003-RED SEA MALL",
+        "manager": "المنطقة الغربية",
+        "showroom": "1003-RED SEA MALL",
         "showroomDetails": [
-            {
-                "name": "1001-ANDALOS MALL",
-                "codes": [
-                    "1001-C",
-                    "1001-E"
-                ]
-            },
             {
                 "name": "1003-RED SEA MALL",
                 "codes": [
@@ -3562,7 +3555,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1001-C;1001-E;1003-C;1003-E"
+        "addressBooks": "1003-C;1003-E"
     },
     {
         "employeeId": "4429-هياء السميح",
