@@ -512,6 +512,21 @@
         });
         document.getElementById("totalOutlets").innerText = uniqueOutlets.size;
 
+        // ترتيب عرض الموظفين حسب اسم المعرض ليتجمع موظفو المعرض الواحد معاً
+        // والفرز الثاني يكون أبجدياً حسب اسم الموظف
+        myEmployees.sort((a, b) => {
+            let showroomA = a.showroom || "";
+            let showroomB = b.showroom || "";
+            
+            if (showroomA !== showroomB) {
+                return showroomA.localeCompare(showroomB, 'ar');
+            }
+            
+            let nameA = a.name || "";
+            let nameB = b.name || "";
+            return nameA.localeCompare(nameB, 'ar');
+        });
+
         // Populate table
         let tableBody = document.querySelector("#employeesTable tbody");
         if(tableBody) {
