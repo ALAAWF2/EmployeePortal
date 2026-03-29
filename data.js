@@ -2115,24 +2115,6 @@ const EMPLOYEES = [
         "addressBooks": "1010-C;1010-E"
     },
     {
-        "employeeId": "3840-Naba Ali AlBaloushi",
-        "personnelNumber": "3840",
-        "name": "Naba Ali AlBaloushi",
-        "startDate": "2023-11-22",
-        "manager": "عبيدة السباعي",
-        "showroom": "1005-SALAM MALL",
-        "showroomDetails": [
-            {
-                "name": "1005-SALAM MALL",
-                "codes": [
-                    "1005-C",
-                    "1005-E"
-                ]
-            }
-        ],
-        "addressBooks": "1005-C;1005-E"
-    },
-    {
         "employeeId": "3881-رنيم احمد السميري",
         "personnelNumber": "3881",
         "name": "رنيم احمد السميري",
@@ -2354,24 +2336,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1201-C;1201-E;1203-C;1203-E"
-    },
-    {
-        "employeeId": "4081-Abdulaziz Mohammed A",
-        "personnelNumber": "4081",
-        "name": "Abdulaziz Mohammed A",
-        "startDate": "2024-03-10",
-        "manager": "عبيدة السباعي",
-        "showroom": "1001-ANDALOS MALL",
-        "showroomDetails": [
-            {
-                "name": "1001-ANDALOS MALL",
-                "codes": [
-                    "1001-C",
-                    "1001-E"
-                ]
-            }
-        ],
-        "addressBooks": "1001-C;1001-E"
     },
     {
         "employeeId": "4085-فراس عبدالستار الخان",
@@ -4189,17 +4153,17 @@ const EMPLOYEES = [
         "name": "بشاير الحميدي",
         "startDate": "2025-05-13",
         "manager": "عبد الجليل الحبال",
-        "showroom": "1108-SALAM MALL",
+        "showroom": "1102-OTHAIM MALL",
         "showroomDetails": [
             {
-                "name": "1108-SALAM MALL",
+                "name": "1102-OTHAIM MALL",
                 "codes": [
-                    "1108-C",
-                    "1108-E"
+                    "1102-C",
+                    "1102-E"
                 ]
             }
         ],
-        "addressBooks": "1108-C;1108-E"
+        "addressBooks": "1102-C;1102-E"
     },
     {
         "employeeId": "4586-ريناد عبدالله",
@@ -4207,17 +4171,17 @@ const EMPLOYEES = [
         "name": "ريناد عبدالله",
         "startDate": "2025-05-14",
         "manager": "عبد الجليل الحبال",
-        "showroom": "1103-RABWA MALL",
+        "showroom": "1102-OTHAIM MALL",
         "showroomDetails": [
             {
-                "name": "1103-RABWA MALL",
+                "name": "1102-OTHAIM MALL",
                 "codes": [
-                    "1103-C",
-                    "1103-E"
+                    "1102-C",
+                    "1102-E"
                 ]
             }
         ],
-        "addressBooks": "1103-C;1103-E"
+        "addressBooks": "1102-C;1102-E"
     },
     {
         "employeeId": "4593-رزان الفهمي",
