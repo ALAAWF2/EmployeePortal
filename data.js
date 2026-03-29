@@ -8500,8 +8500,15 @@ const EMPLOYEES = [
         "name": "ريماس الرحيلي",
         "startDate": "2026-02-10",
         "manager": "خليل الصانع",
-        "showroom": "1402-NOOR MALL",
+        "showroom": "1401-ALIA MALL و 1402-NOOR MALL",
         "showroomDetails": [
+            {
+                "name": "1401-ALIA MALL",
+                "codes": [
+                    "1401-C",
+                    "1401-E"
+                ]
+            },
             {
                 "name": "1402-NOOR MALL",
                 "codes": [
@@ -8510,7 +8517,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1402-C;1402-E"
+        "addressBooks": "1401-C;1401-E;1402-C;1402-E"
     },
     {
         "employeeId": "4869-مرام الحربي",
