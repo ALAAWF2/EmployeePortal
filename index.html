@@ -352,16 +352,64 @@
                 align-items: center;
             }
             .table-container {
-                padding: 15px 10px;
+                padding: 10px;
+                background: transparent;
+                box-shadow: none;
             }
             .table-title {
                 font-size: 1.1rem;
+                padding: 0 10px;
             }
-            th, td {
-                padding: 12px 10px;
+            
+            /* تحويل الجدول إلى بطاقات (Cards) في الجوال */
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            thead tr {
+                display: none; /* إخفاء الترويسة العليا */
+            }
+            tr {
+                margin-bottom: 15px;
+                background: var(--white);
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+                border: 1px solid #edf2f7;
+                overflow: hidden;
+            }
+            td {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                text-align: right;
+                border-bottom: 1px solid #edf2f7;
+                padding: 12px 15px;
+                white-space: normal;
+                position: relative;
+            }
+            td:last-child {
+                border-bottom: none;
+            }
+            td::before {
+                content: attr(data-label);
+                font-weight: 700;
+                color: var(--text-sec);
                 font-size: 0.85rem;
-                white-space: nowrap; /* يمنع نزول النص لسطر جديد للجدول ليتيح التمرير الجانبي */
+                margin-bottom: 5px;
             }
+            .td-showrooms {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .td-showrooms .badge {
+                margin: 2px 0;
+            }
+            .td-actions {
+                align-items: center;
+            }
+            .td-actions::before {
+                display: none; /* إخفاء اسم الإجراء لتوفير مساحة */
+            }
+                        
             .badge {
                 font-size: 0.75rem;
                 padding: 5px 8px;
@@ -536,11 +584,11 @@
                 
                 let tr = document.createElement("tr");
                 tr.innerHTML = `
-                    <td>${emp.name}</td>
-                    <td><strong>${emp.personnelNumber}</strong></td>
-                    <td>${badgesHtml}</td>
-                    <td>${emp.startDate}</td>
-                    <td>
+                    <td data-label="الاسم">${emp.name}</td>
+                    <td data-label="الرقم الوظيفي"><strong>${emp.personnelNumber}</strong></td>
+                    <td data-label="المعرض" class="td-showrooms">${badgesHtml}</td>
+                    <td data-label="تاريخ المباشرة">${emp.startDate}</td>
+                    <td data-label="إجراء" class="td-actions">
                         <button class="btn-remove" style="background:#eef2ff; color:#4318ff; border-color:#4318ff;" 
                             onclick="openManageModal('${emp.personnelNumber}')">إدارة متقدمة ⚙️</button>
                     </td>
