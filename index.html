@@ -312,6 +312,87 @@
             transition: 0.2s;
         }
         .btn-primary:hover { background: var(--primary-hover); }
+
+        /* الشاشات الصغيرة والهواتف (Mobile Responsive) */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                padding: 15px;
+                gap: 15px;
+            }
+            .header-left {
+                width: 100%;
+                justify-content: center;
+            }
+            .user-info {
+                width: 100%;
+                justify-content: space-between;
+                background: #f8f9fc;
+                padding: 10px 15px;
+                border-radius: 12px;
+                box-sizing: border-box;
+            }
+            .header-title {
+                font-size: 1.1rem;
+            }
+            .btn-logout {
+                padding: 6px 12px;
+                font-size: 0.85rem;
+            }
+            .main-content {
+                width: 95%;
+                margin-top: 20px;
+            }
+            .stats-cards {
+                flex-direction: column;
+                gap: 15px;
+            }
+            .card {
+                padding: 18px;
+                align-items: center;
+            }
+            .table-container {
+                padding: 15px 10px;
+            }
+            .table-title {
+                font-size: 1.1rem;
+            }
+            th, td {
+                padding: 12px 10px;
+                font-size: 0.85rem;
+                white-space: nowrap; /* يمنع نزول النص لسطر جديد للجدول ليتيح التمرير الجانبي */
+            }
+            .badge {
+                font-size: 0.75rem;
+                padding: 5px 8px;
+                display: inline-block;
+                margin-bottom: 4px;
+            }
+            .btn-remove {
+                padding: 6px 10px;
+                font-size: 0.8rem;
+                width: 100%; /* زر الإدارة يأخذ العرض كامل */
+                margin-top: 5px;
+            }
+            .modal {
+                width: 95%;
+                margin: 20px;
+                max-height: 90vh; /* لتجنب خروج المودال عن الشاشة */
+                overflow-y: auto;
+            }
+            .modal-header, .modal-section {
+                padding: 15px;
+            }
+            .showroom-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+            }
+            .btn-sm-remove {
+                width: 100%;
+                padding: 8px;
+            }
+        }
     </style>
 </head>
 <body>
