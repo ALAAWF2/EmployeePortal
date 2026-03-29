@@ -3544,9 +3544,16 @@ const EMPLOYEES = [
         "personnelNumber": "4420",
         "name": "اجمل",
         "startDate": "2024-12-03",
-        "manager": "المنطقة الغربية",
-        "showroom": "1003-RED SEA MALL",
+        "manager": "عبيدة السباعي",
+        "showroom": "1001-ANDALOS MALL و 1003-RED SEA MALL",
         "showroomDetails": [
+            {
+                "name": "1001-ANDALOS MALL",
+                "codes": [
+                    "1001-C",
+                    "1001-E"
+                ]
+            },
             {
                 "name": "1003-RED SEA MALL",
                 "codes": [
@@ -3555,7 +3562,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1003-C;1003-E"
+        "addressBooks": "1001-C;1001-E;1003-C;1003-E"
     },
     {
         "employeeId": "4429-هياء السميح",
@@ -9130,6 +9137,24 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1007-C;1007-E"
+    },
+    {
+        "employeeId": "4916-شمسير اب",
+        "personnelNumber": "4916",
+        "name": "شمسير اب",
+        "startDate": "2026-03-27",
+        "manager": "خليل الصانع",
+        "showroom": "2001-TAPUK PARK MALL",
+        "showroomDetails": [
+            {
+                "name": "2001-TAPUK PARK MALL",
+                "codes": [
+                    "2001-C",
+                    "2001-E"
+                ]
+            }
+        ],
+        "addressBooks": "2001-C;2001-E"
     }
 ];
 
