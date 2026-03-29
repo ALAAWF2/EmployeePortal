@@ -87,6 +87,22 @@ margin-bottom:15px;
 <script>
 
 window.onload = function() {
+    let urlParams = new URLSearchParams(window.location.search);
+    let autoUser = urlParams.get('autoLoginUser');
+    
+    if (autoUser) {
+        let foundManager = MANAGERS.find(m => m.username === autoUser);
+        if (foundManager) {
+            localStorage.setItem("loggedIn", "true");
+            localStorage.setItem("manager", foundManager.username);
+            localStorage.setItem("outlets", JSON.stringify(foundManager.outlets));
+            window.location.href = "index.html";
+            return;
+        } else {
+            console.warn("المستخدم القادم من الرابط ليس لديه حساب مدير هنا.");
+        }
+    }
+
     let select = document.getElementById("username");
     MANAGERS.forEach(m => {
         let option = document.createElement("option");
