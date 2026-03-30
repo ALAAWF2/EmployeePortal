@@ -1126,24 +1126,6 @@ const EMPLOYEES = [
         "addressBooks": "1004-C;1004-E"
     },
     {
-        "employeeId": "2792-SHAHEER KALATHIL",
-        "personnelNumber": "2792",
-        "name": "SHAHEER KALATHIL",
-        "startDate": "2021-11-30",
-        "manager": "خليل الصانع",
-        "showroom": "2301-JOUF MALL",
-        "showroomDetails": [
-            {
-                "name": "2301-JOUF MALL",
-                "codes": [
-                    "2301-C",
-                    "2301-E"
-                ]
-            }
-        ],
-        "addressBooks": "2301-C;2301-E"
-    },
-    {
         "employeeId": "2796-محمد شفيق ميلا باثود",
         "personnelNumber": "2796",
         "name": "محمد شفيق ميلا باثود",
@@ -3450,24 +3432,6 @@ const EMPLOYEES = [
         "addressBooks": "1111-C;1111-E"
     },
     {
-        "employeeId": "4405-Ghadeer Fahd Alharbi",
-        "personnelNumber": "4405",
-        "name": "Ghadeer Fahd Alharbi",
-        "startDate": "2024-11-19",
-        "manager": "خليل الصانع",
-        "showroom": "1402-NOOR MALL",
-        "showroomDetails": [
-            {
-                "name": "1402-NOOR MALL",
-                "codes": [
-                    "1402-C",
-                    "1402-E"
-                ]
-            }
-        ],
-        "addressBooks": "1402-C;1402-E"
-    },
-    {
         "employeeId": "4408-روابي الهوساوي",
         "personnelNumber": "4408",
         "name": "روابي الهوساوي",
@@ -4238,24 +4202,6 @@ const EMPLOYEES = [
         "addressBooks": "1301-C;1301-E"
     },
     {
-        "employeeId": "4600-خلود الرفاعي",
-        "personnelNumber": "4600",
-        "name": "خلود الرفاعي",
-        "startDate": "2025-05-25",
-        "manager": "خليل الصانع",
-        "showroom": "1401-ALIA MALL",
-        "showroomDetails": [
-            {
-                "name": "1401-ALIA MALL",
-                "codes": [
-                    "1401-C",
-                    "1401-E"
-                ]
-            }
-        ],
-        "addressBooks": "1401-C;1401-E"
-    },
-    {
         "employeeId": "4601-حسان العرافي",
         "personnelNumber": "4601",
         "name": "حسان العرافي",
@@ -4457,24 +4403,6 @@ const EMPLOYEES = [
         "employeeId": "4534-هاجر العلوني",
         "personnelNumber": "4534",
         "name": "هاجر العلوني",
-        "startDate": "2025-03-08",
-        "manager": "خليل الصانع",
-        "showroom": "1501-DANA MALL",
-        "showroomDetails": [
-            {
-                "name": "1501-DANA MALL",
-                "codes": [
-                    "1501-C",
-                    "1501-E"
-                ]
-            }
-        ],
-        "addressBooks": "1501-C;1501-E"
-    },
-    {
-        "employeeId": "4535-رندا الجهني",
-        "personnelNumber": "4535",
-        "name": "رندا الجهني",
         "startDate": "2025-03-08",
         "manager": "خليل الصانع",
         "showroom": "1501-DANA MALL",
@@ -4839,24 +4767,6 @@ const EMPLOYEES = [
         "addressBooks": "1401-C;1401-E;1402-C;1402-E"
     },
     {
-        "employeeId": "4676-وسن عبدالله السلمي",
-        "personnelNumber": "4676",
-        "name": "وسن عبدالله السلمي",
-        "startDate": "2025-08-21",
-        "manager": "خليل الصانع",
-        "showroom": "1501-DANA MALL",
-        "showroomDetails": [
-            {
-                "name": "1501-DANA MALL",
-                "codes": [
-                    "1501-C",
-                    "1501-E"
-                ]
-            }
-        ],
-        "addressBooks": "1501-C;1501-E"
-    },
-    {
         "employeeId": "4670-سلمى علي مجرشي",
         "personnelNumber": "4670",
         "name": "سلمى علي مجرشي",
@@ -4981,42 +4891,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1101-C;1101-E"
-    },
-    {
-        "employeeId": "4699-صبا ماجد البلوي",
-        "personnelNumber": "4699",
-        "name": "صبا ماجد البلوي",
-        "startDate": "2025-09-14",
-        "manager": "خليل الصانع",
-        "showroom": "1401-ALIA MALL",
-        "showroomDetails": [
-            {
-                "name": "1401-ALIA MALL",
-                "codes": [
-                    "1401-C",
-                    "1401-E"
-                ]
-            }
-        ],
-        "addressBooks": "1401-C;1401-E"
-    },
-    {
-        "employeeId": "4700-مريم سعود الحربي",
-        "personnelNumber": "4700",
-        "name": "مريم سعود الحربي",
-        "startDate": "2025-09-14",
-        "manager": "خليل الصانع",
-        "showroom": "1402-NOOR MALL",
-        "showroomDetails": [
-            {
-                "name": "1402-NOOR MALL",
-                "codes": [
-                    "1402-C",
-                    "1402-E"
-                ]
-            }
-        ],
-        "addressBooks": "1402-C;1402-E"
     },
     {
         "employeeId": "4701-فاطمه حسين المويل",
@@ -6192,24 +6066,6 @@ const EMPLOYEES = [
         "addressBooks": "1402-C;1402-E"
     },
     {
-        "employeeId": "aliamall-aliamall",
-        "personnelNumber": "aliamall",
-        "name": "aliamall",
-        "startDate": "2025-12-10",
-        "manager": "خليل الصانع",
-        "showroom": "1401-ALIA MALL",
-        "showroomDetails": [
-            {
-                "name": "1401-ALIA MALL",
-                "codes": [
-                    "1401-C",
-                    "1401-E"
-                ]
-            }
-        ],
-        "addressBooks": "1401-C;1401-E"
-    },
-    {
         "employeeId": "4762-رهف الحربي",
         "personnelNumber": "4762",
         "name": "رهف الحربي",
@@ -7315,24 +7171,6 @@ const EMPLOYEES = [
         "addressBooks": "2301-C;2301-E"
     },
     {
-        "employeeId": "dana-dana",
-        "personnelNumber": "dana",
-        "name": "dana",
-        "startDate": "2025-12-16",
-        "manager": "خليل الصانع",
-        "showroom": "1501-DANA MALL",
-        "showroomDetails": [
-            {
-                "name": "1501-DANA MALL",
-                "codes": [
-                    "1501-C",
-                    "1501-E"
-                ]
-            }
-        ],
-        "addressBooks": "1501-C;1501-E"
-    },
-    {
         "employeeId": "othaimarar-othaimarar",
         "personnelNumber": "othaimarar",
         "name": "othaimarar",
@@ -7529,31 +7367,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1106-C;1106-E"
-    },
-    {
-        "employeeId": "4791-Wadha Aljabri",
-        "personnelNumber": "4791",
-        "name": "Wadha Aljabri",
-        "startDate": "2025-12-20",
-        "manager": "خليل الصانع",
-        "showroom": "1401-ALIA MALL و 1402-NOOR MALL",
-        "showroomDetails": [
-            {
-                "name": "1401-ALIA MALL",
-                "codes": [
-                    "1401-C",
-                    "1401-E"
-                ]
-            },
-            {
-                "name": "1402-NOOR MALL",
-                "codes": [
-                    "1402-C",
-                    "1402-E"
-                ]
-            }
-        ],
-        "addressBooks": "1401-C;1401-E;1402-C;1402-E"
     },
     {
         "employeeId": "4788-Arada Asiri",
@@ -7975,24 +7788,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1402-C;1402-E"
-    },
-    {
-        "employeeId": "4829-Esraa Kabi",
-        "personnelNumber": "4829",
-        "name": "Esraa Kabi",
-        "startDate": "2026-01-19",
-        "manager": "خليل الصانع",
-        "showroom": "1401-ALIA MALL",
-        "showroomDetails": [
-            {
-                "name": "1401-ALIA MALL",
-                "codes": [
-                    "1401-C",
-                    "1401-E"
-                ]
-            }
-        ],
-        "addressBooks": "1401-C;1401-E"
     },
     {
         "employeeId": "4830-Renam Alsharani",
