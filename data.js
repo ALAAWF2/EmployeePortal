@@ -7923,24 +7923,6 @@ const EMPLOYEES = [
         "addressBooks": "1401-C;1401-E"
     },
     {
-        "employeeId": "4838-هنوف الوادعي",
-        "personnelNumber": "4838",
-        "name": "هنوف الوادعي",
-        "startDate": "2026-01-26",
-        "manager": "رضوان عطيوي",
-        "showroom": "1203- JABL OMAR MALL",
-        "showroomDetails": [
-            {
-                "name": "1203- JABL OMAR MALL",
-                "codes": [
-                    "1203-C",
-                    "1203-E"
-                ]
-            }
-        ],
-        "addressBooks": "1203-C;1203-E"
-    },
-    {
         "employeeId": "4839-منال طاهر",
         "personnelNumber": "4839",
         "name": "منال طاهر",
@@ -8029,24 +8011,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1906-C;1906-E"
-    },
-    {
-        "employeeId": "4844-عزه فهمي",
-        "personnelNumber": "4844",
-        "name": "عزه فهمي",
-        "startDate": "2026-01-31",
-        "manager": "رضوان عطيوي",
-        "showroom": "1203- JABL OMAR MALL",
-        "showroomDetails": [
-            {
-                "name": "1203- JABL OMAR MALL",
-                "codes": [
-                    "1203-C",
-                    "1203-E"
-                ]
-            }
-        ],
-        "addressBooks": "1203-C;1203-E"
     },
     {
         "employeeId": "4857-العنود العوفي",
