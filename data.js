@@ -1,57 +1,57 @@
 const MANAGERS = [
     {
         "username": "شريفة العمري",
-        "password": "0000",
+        "password": "8491",
         "outlets": []
     },
     {
         "username": "اماني عسيري",
-        "password": "0000",
+        "password": "3698",
         "outlets": []
     },
     {
         "username": "عبيدة السباعي",
-        "password": "0000",
+        "password": "1647",
         "outlets": []
     },
     {
         "username": "محمدكلو",
-        "password": "0000",
+        "password": "4891",
         "outlets": []
     },
     {
         "username": "المنطقة الغربية",
-        "password": "0000",
+        "password": "1478",
         "outlets": []
     },
     {
         "username": "خليل الصانع",
-        "password": "0000",
+        "password": "2131",
         "outlets": []
     },
     {
         "username": "رضوان عطيوي",
-        "password": "0000",
+        "password": "7643",
         "outlets": []
     },
     {
         "username": "عبد الجليل الحبال",
-        "password": "0000",
+        "password": "1637",
         "outlets": []
     },
     {
         "username": "جهاد ايوبي",
-        "password": "0000",
+        "password": "2587",
         "outlets": []
     },
     {
         "username": "منطقة الطائف",
-        "password": "0000",
+        "password": "6342",
         "outlets": []
     },
     {
         "username": "عبدالله السرداح",
-        "password": "0000",
+        "password": "4618",
         "outlets": []
     }
 ];
@@ -4171,7 +4171,7 @@ const EMPLOYEES = [
         "name": "بسمة السهلي",
         "startDate": "2025-05-19",
         "manager": "خليل الصانع",
-        "showroom": "1402-NOOR MALL",
+        "showroom": "1402-NOOR MALL و 2001-TAPUK PARK MALL",
         "showroomDetails": [
             {
                 "name": "1402-NOOR MALL",
@@ -4179,9 +4179,16 @@ const EMPLOYEES = [
                     "1402-C",
                     "1402-E"
                 ]
+            },
+            {
+                "name": "2001-TAPUK PARK MALL",
+                "codes": [
+                    "2001-C",
+                    "2001-E"
+                ]
             }
         ],
-        "addressBooks": "1402-C;1402-E"
+        "addressBooks": "1402-C;1402-E;2001-C;2001-E"
     },
     {
         "employeeId": "4599-زهرة الشمراني",
