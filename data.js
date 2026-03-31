@@ -6768,24 +6768,6 @@ const EMPLOYEES = [
         "addressBooks": "1109-C;1109-E"
     },
     {
-        "employeeId": "makkahmall-makkahmall",
-        "personnelNumber": "makkahmall",
-        "name": "makkahmall",
-        "startDate": "2025-12-15",
-        "manager": "رضوان عطيوي",
-        "showroom": "1201-MAKKAH MALL",
-        "showroomDetails": [
-            {
-                "name": "1201-MAKKAH MALL",
-                "codes": [
-                    "1201-C",
-                    "1201-E"
-                ]
-            }
-        ],
-        "addressBooks": "1201-C;1201-E"
-    },
-    {
         "employeeId": "مرتجع مكة-مرتجع مكة مول",
         "personnelNumber": "مرتجع مكة",
         "name": "مرتجع مكة مول",
@@ -7680,24 +7662,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1115-C;1115-E"
-    },
-    {
-        "employeeId": "4817-بيان خالد",
-        "personnelNumber": "4817",
-        "name": "بيان خالد",
-        "startDate": "2026-01-10",
-        "manager": "رضوان عطيوي",
-        "showroom": "1202-SITTEN CENTER",
-        "showroomDetails": [
-            {
-                "name": "1202-SITTEN CENTER",
-                "codes": [
-                    "1202-C",
-                    "1202-E"
-                ]
-            }
-        ],
-        "addressBooks": "1202-C;1202-E"
     },
     {
         "employeeId": "4818-عائشة ناصر",
