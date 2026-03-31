@@ -56,6 +56,10 @@ def process():
         if str(personnel_num) in ["999999", "3829", "2855"]:
             continue
             
+        # Exclude IT-added dummy employees whose personnel numbers are not actual numbers
+        if not str(personnel_num).isdigit():
+            continue
+            
         # Prefer NameAlias (Arabic) otherwise fallback to Name
         # Check if NameAlias is missing or just english
         name_alias = worker.get("NameAlias", "")
