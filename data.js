@@ -4171,7 +4171,7 @@ const EMPLOYEES = [
         "name": "بسمة السهلي",
         "startDate": "2025-05-19",
         "manager": "خليل الصانع",
-        "showroom": "1402-NOOR MALL و 2001-TAPUK PARK MALL",
+        "showroom": "1402-NOOR MALL",
         "showroomDetails": [
             {
                 "name": "1402-NOOR MALL",
@@ -4179,16 +4179,9 @@ const EMPLOYEES = [
                     "1402-C",
                     "1402-E"
                 ]
-            },
-            {
-                "name": "2001-TAPUK PARK MALL",
-                "codes": [
-                    "2001-C",
-                    "2001-E"
-                ]
             }
         ],
-        "addressBooks": "1402-C;1402-E;2001-C;2001-E"
+        "addressBooks": "1402-C;1402-E"
     },
     {
         "employeeId": "4599-زهرة الشمراني",
