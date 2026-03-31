@@ -4202,6 +4202,24 @@ const EMPLOYEES = [
         "addressBooks": "1301-C;1301-E"
     },
     {
+        "employeeId": "4600-خلود الرفاعي",
+        "personnelNumber": "4600",
+        "name": "خلود الرفاعي",
+        "startDate": "2025-05-25",
+        "manager": "خليل الصانع",
+        "showroom": "1401-ALIA MALL",
+        "showroomDetails": [
+            {
+                "name": "1401-ALIA MALL",
+                "codes": [
+                    "1401-C",
+                    "1401-E"
+                ]
+            }
+        ],
+        "addressBooks": "1401-C;1401-E"
+    },
+    {
         "employeeId": "4601-حسان العرافي",
         "personnelNumber": "4601",
         "name": "حسان العرافي",
@@ -6066,6 +6084,24 @@ const EMPLOYEES = [
         "addressBooks": "1402-C;1402-E"
     },
     {
+        "employeeId": "aliamall-aliamall",
+        "personnelNumber": "aliamall",
+        "name": "aliamall",
+        "startDate": "2025-12-10",
+        "manager": "خليل الصانع",
+        "showroom": "1401-ALIA MALL",
+        "showroomDetails": [
+            {
+                "name": "1401-ALIA MALL",
+                "codes": [
+                    "1401-C",
+                    "1401-E"
+                ]
+            }
+        ],
+        "addressBooks": "1401-C;1401-E"
+    },
+    {
         "employeeId": "4762-رهف الحربي",
         "personnelNumber": "4762",
         "name": "رهف الحربي",
@@ -7169,6 +7205,24 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "2301-C;2301-E"
+    },
+    {
+        "employeeId": "dana-dana",
+        "personnelNumber": "dana",
+        "name": "dana",
+        "startDate": "2025-12-16",
+        "manager": "خليل الصانع",
+        "showroom": "1501-DANA MALL",
+        "showroomDetails": [
+            {
+                "name": "1501-DANA MALL",
+                "codes": [
+                    "1501-C",
+                    "1501-E"
+                ]
+            }
+        ],
+        "addressBooks": "1501-C;1501-E"
     },
     {
         "employeeId": "othaimarar-othaimarar",
@@ -8752,24 +8806,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1202-C;1202-E"
-    },
-    {
-        "employeeId": "4889-ساميه الحازمي",
-        "personnelNumber": "4889",
-        "name": "ساميه الحازمي",
-        "startDate": "2026-02-25",
-        "manager": "رضوان عطيوي",
-        "showroom": "1201-MAKKAH MALL",
-        "showroomDetails": [
-            {
-                "name": "1201-MAKKAH MALL",
-                "codes": [
-                    "1201-C",
-                    "1201-E"
-                ]
-            }
-        ],
-        "addressBooks": "1201-C;1201-E"
     },
     {
         "employeeId": "4890-بلقيس الزهراني",
