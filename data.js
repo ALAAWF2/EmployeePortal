@@ -1415,15 +1415,8 @@ const EMPLOYEES = [
         "name": "دانيش مون كولان",
         "startDate": "2022-10-22",
         "manager": "شريفة العمري",
-        "showroom": "1002-HAIFA MALL و 1004-ARAB MALL",
+        "showroom": "1004-ARAB MALL",
         "showroomDetails": [
-            {
-                "name": "1002-HAIFA MALL",
-                "codes": [
-                    "1002-C",
-                    "1002-E"
-                ]
-            },
             {
                 "name": "1004-ARAB MALL",
                 "codes": [
@@ -1432,7 +1425,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1002-C;1002-E;1004-C;1004-E"
+        "addressBooks": "1004-C;1004-E"
     },
     {
         "employeeId": "3338-ريشاد",
