@@ -2741,24 +2741,6 @@ const EMPLOYEES = [
         "addressBooks": "1010-C;1010-E"
     },
     {
-        "employeeId": "4190-مرام محمد الزبيدي",
-        "personnelNumber": "4190",
-        "name": "مرام محمد الزبيدي",
-        "startDate": "2024-06-02",
-        "manager": "شريفة العمري",
-        "showroom": "1002-HAIFA MALL",
-        "showroomDetails": [
-            {
-                "name": "1002-HAIFA MALL",
-                "codes": [
-                    "1002-C",
-                    "1002-E"
-                ]
-            }
-        ],
-        "addressBooks": "1002-C;1002-E"
-    },
-    {
         "employeeId": "4194-امل محمد كرتيل",
         "personnelNumber": "4194",
         "name": "امل محمد كرتيل",
@@ -4578,24 +4560,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1904-C;1904-E"
-    },
-    {
-        "employeeId": "4630-شدى يحي عسيري",
-        "personnelNumber": "4630",
-        "name": "شدى يحي عسيري",
-        "startDate": "2025-07-01",
-        "manager": "شريفة العمري",
-        "showroom": "1002-HAIFA MALL",
-        "showroomDetails": [
-            {
-                "name": "1002-HAIFA MALL",
-                "codes": [
-                    "1002-C",
-                    "1002-E"
-                ]
-            }
-        ],
-        "addressBooks": "1002-C;1002-E"
     },
     {
         "employeeId": "4635-عائشه محمد البركاتي",
@@ -7168,6 +7132,24 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "2001-C;2001-E"
+    },
+    {
+        "employeeId": "4924-Mahmmad Nasih",
+        "personnelNumber": "4924",
+        "name": "Mahmmad Nasih",
+        "startDate": "2026-03-29",
+        "manager": "منطقة الطائف",
+        "showroom": "1302-KAMAL CENTER",
+        "showroomDetails": [
+            {
+                "name": "1302-KAMAL CENTER",
+                "codes": [
+                    "1302-C",
+                    "1302-E"
+                ]
+            }
+        ],
+        "addressBooks": "1302-C;1302-E"
     }
 ];
 
