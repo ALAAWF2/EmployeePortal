@@ -4375,24 +4375,6 @@ const EMPLOYEES = [
         "addressBooks": "1903-C;1903-E"
     },
     {
-        "employeeId": "4546-احمد يوسف",
-        "personnelNumber": "4546",
-        "name": "احمد يوسف",
-        "startDate": "2025-03-11",
-        "manager": "شريفة العمري",
-        "showroom": "1002-HAIFA MALL",
-        "showroomDetails": [
-            {
-                "name": "1002-HAIFA MALL",
-                "codes": [
-                    "1002-C",
-                    "1002-E"
-                ]
-            }
-        ],
-        "addressBooks": "1002-C;1002-E"
-    },
-    {
         "employeeId": "4534-هاجر العلوني",
         "personnelNumber": "4534",
         "name": "هاجر العلوني",
