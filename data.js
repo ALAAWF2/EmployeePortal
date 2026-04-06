@@ -2973,17 +2973,17 @@ const EMPLOYEES = [
         "name": "ميعاد جابر الريثى",
         "startDate": "2024-07-31",
         "manager": "اماني عسيري",
-        "showroom": "1901-RASHID MALL",
+        "showroom": "1903-MUJAN PARK MALL",
         "showroomDetails": [
             {
-                "name": "1901-RASHID MALL",
+                "name": "1903-MUJAN PARK MALL",
                 "codes": [
-                    "1901-C",
-                    "1901-E"
+                    "1903-C",
+                    "1903-E"
                 ]
             }
         ],
-        "addressBooks": "1901-C;1901-E"
+        "addressBooks": "1903-C;1903-E"
     },
     {
         "employeeId": "4306-اماني احمد عسيري",
@@ -4981,8 +4981,15 @@ const EMPLOYEES = [
         "name": "مراد محمد مباركي",
         "startDate": "2025-09-17",
         "manager": "عبد الجليل الحبال",
-        "showroom": "1112-MEEM PLAZA CENTER",
+        "showroom": "1102-OTHAIM MALL و 1112-MEEM PLAZA CENTER",
         "showroomDetails": [
+            {
+                "name": "1102-OTHAIM MALL",
+                "codes": [
+                    "1102-C",
+                    "1102-E"
+                ]
+            },
             {
                 "name": "1112-MEEM PLAZA CENTER",
                 "codes": [
@@ -4991,7 +4998,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1112-C;1112-E"
+        "addressBooks": "1102-C;1102-E;1112-C;1112-E"
     },
     {
         "employeeId": "4692-محمد سلمان كوناتشالي",
@@ -5035,7 +5042,7 @@ const EMPLOYEES = [
         "name": "فاطمة القرني",
         "startDate": "2009-10-09",
         "manager": "عبيدة السباعي",
-        "showroom": "1001-ANDALOS MALL",
+        "showroom": "1001-ANDALOS MALL و 1008-JEDDAH PARK MALL",
         "showroomDetails": [
             {
                 "name": "1001-ANDALOS MALL",
@@ -5043,9 +5050,16 @@ const EMPLOYEES = [
                     "1001-C",
                     "1001-E"
                 ]
+            },
+            {
+                "name": "1008-JEDDAH PARK MALL",
+                "codes": [
+                    "1008-C",
+                    "1008-E"
+                ]
             }
         ],
-        "addressBooks": "1001-C;1001-E"
+        "addressBooks": "1001-C;1001-E;1008-C;1008-E"
     },
     {
         "employeeId": "4725-مياسة مروان",
@@ -5488,8 +5502,15 @@ const EMPLOYEES = [
         "name": "Amal Hamdan Almalki",
         "startDate": "2025-12-15",
         "manager": "شريفة العمري",
-        "showroom": "1008-JEDDAH PARK MALL",
+        "showroom": "1002-HAIFA MALL و 1008-JEDDAH PARK MALL",
         "showroomDetails": [
+            {
+                "name": "1002-HAIFA MALL",
+                "codes": [
+                    "1002-C",
+                    "1002-E"
+                ]
+            },
             {
                 "name": "1008-JEDDAH PARK MALL",
                 "codes": [
@@ -5498,7 +5519,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1008-C;1008-E"
+        "addressBooks": "1002-C;1002-E;1008-C;1008-E"
     },
     {
         "employeeId": "4761-اريام الاسمري",
@@ -5819,24 +5840,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "2102-C;2102-E"
-    },
-    {
-        "employeeId": "4809-بشاير عاطف",
-        "personnelNumber": "4809",
-        "name": "بشاير عاطف",
-        "startDate": "2026-01-04",
-        "manager": "محمدكلو",
-        "showroom": "1113-PARK AVENUE MALL",
-        "showroomDetails": [
-            {
-                "name": "1113-PARK AVENUE MALL",
-                "codes": [
-                    "1113-C",
-                    "1113-E"
-                ]
-            }
-        ],
-        "addressBooks": "1113-C;1113-E"
     },
     {
         "employeeId": "4811-Wafaa Alyami",
@@ -7125,6 +7128,42 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1302-C;1302-E"
+    },
+    {
+        "employeeId": "4930-ياره حسين",
+        "personnelNumber": "4930",
+        "name": "ياره حسين",
+        "startDate": "2026-04-05",
+        "manager": "اماني عسيري",
+        "showroom": "1901-RASHID MALL",
+        "showroomDetails": [
+            {
+                "name": "1901-RASHID MALL",
+                "codes": [
+                    "1901-C",
+                    "1901-E"
+                ]
+            }
+        ],
+        "addressBooks": "1901-C;1901-E"
+    },
+    {
+        "employeeId": "4931-غاده الشهراني",
+        "personnelNumber": "4931",
+        "name": "غاده الشهراني",
+        "startDate": "2026-04-05",
+        "manager": "اماني عسيري",
+        "showroom": "1903-MUJAN PARK MALL",
+        "showroomDetails": [
+            {
+                "name": "1903-MUJAN PARK MALL",
+                "codes": [
+                    "1903-C",
+                    "1903-E"
+                ]
+            }
+        ],
+        "addressBooks": "1903-C;1903-E"
     }
 ];
 
