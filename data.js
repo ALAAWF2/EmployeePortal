@@ -2868,7 +2868,7 @@ const EMPLOYEES = [
         "name": "موده سليمان الدويرعا",
         "startDate": "2024-07-07",
         "manager": "خليل الصانع",
-        "showroom": "1401-ALIA MALL",
+        "showroom": "1401-ALIA MALL و 1402-NOOR MALL",
         "showroomDetails": [
             {
                 "name": "1401-ALIA MALL",
@@ -2876,9 +2876,16 @@ const EMPLOYEES = [
                     "1401-C",
                     "1401-E"
                 ]
+            },
+            {
+                "name": "1402-NOOR MALL",
+                "codes": [
+                    "1402-C",
+                    "1402-E"
+                ]
             }
         ],
-        "addressBooks": "1401-C;1401-E"
+        "addressBooks": "1401-C;1401-E;1402-C;1402-E"
     },
     {
         "employeeId": "4246-محمد ناصر",
@@ -7084,6 +7091,24 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1501-C;1501-E"
+    },
+    {
+        "employeeId": "4934-فجر العنزي",
+        "personnelNumber": "4934",
+        "name": "فجر العنزي",
+        "startDate": "2026-04-07",
+        "manager": "عبد الجليل الحبال",
+        "showroom": "1102-OTHAIM MALL",
+        "showroomDetails": [
+            {
+                "name": "1102-OTHAIM MALL",
+                "codes": [
+                    "1102-C",
+                    "1102-E"
+                ]
+            }
+        ],
+        "addressBooks": "1102-C;1102-E"
     },
     {
         "employeeId": "4913-محمد رشاد",
