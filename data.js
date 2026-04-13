@@ -541,7 +541,7 @@ const EMPLOYEES = [
         "name": "اشرف محمد المحمود",
         "startDate": "2020-02-29",
         "manager": "خليل الصانع",
-        "showroom": "1401-ALIA MALL و 1402-NOOR MALL",
+        "showroom": "1401-ALIA MALL و 1402-NOOR MALL و 1501-DANA MALL",
         "showroomDetails": [
             {
                 "name": "1401-ALIA MALL",
@@ -556,9 +556,16 @@ const EMPLOYEES = [
                     "1402-C",
                     "1402-E"
                 ]
+            },
+            {
+                "name": "1501-DANA MALL",
+                "codes": [
+                    "1501-C",
+                    "1501-E"
+                ]
             }
         ],
-        "addressBooks": "1401-C;1401-E;1402-C;1402-E"
+        "addressBooks": "1401-C;1401-E;1402-C;1402-E;1501-C;1501-E"
     },
     {
         "employeeId": "0966-ادريس شافي بانقاسيري",

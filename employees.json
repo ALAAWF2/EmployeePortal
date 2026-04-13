@@ -9918,11 +9918,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0ODQwMzsxMjgwMTgyMTg2LDU2MzcxNTM2NzA7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0ODQwMzsxMjUzMjE0NDcwLDU2MzcxNTM2NzA7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "0936",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1401-C;1401-E;1402-C;1402-E",
+            "AddressBooks": "1401-C;1401-E;1402-C;1402-E;1501-C;1501-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",
