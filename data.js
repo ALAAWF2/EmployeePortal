@@ -6194,31 +6194,6 @@ const EMPLOYEES = [
         "addressBooks": "1201-C;1201-E"
     },
     {
-        "employeeId": "4860-مشعل عسيري",
-        "personnelNumber": "4860",
-        "name": "مشعل عسيري",
-        "startDate": "2026-02-07",
-        "manager": "اماني عسيري",
-        "showroom": "1903-MUJAN PARK MALL و 1906-LAVANDA PARK",
-        "showroomDetails": [
-            {
-                "name": "1903-MUJAN PARK MALL",
-                "codes": [
-                    "1903-C",
-                    "1903-E"
-                ]
-            },
-            {
-                "name": "1906-LAVANDA PARK",
-                "codes": [
-                    "1906-C",
-                    "1906-E"
-                ]
-            }
-        ],
-        "addressBooks": "1903-C;1903-E;1906-C;1906-E"
-    },
-    {
         "employeeId": "4861-منيره العنزي",
         "personnelNumber": "4861",
         "name": "منيره العنزي",

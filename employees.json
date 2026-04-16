@@ -181876,11 +181876,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE3NjA4NjsxMTc5MzM4ODAwLDU2MzcyNzY2NjY7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE3NjA4NjsxOTEwNTEwNjAyLDU2MzcyNzY2NjY7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "4860",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1903-C;1903-E;1906-C;1906-E",
+            "AddressBooks": "",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",
