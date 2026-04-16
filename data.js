@@ -629,24 +629,6 @@ const EMPLOYEES = [
         "addressBooks": "1302-C;1302-E"
     },
     {
-        "employeeId": "1271-Fadwa Rashed Aldosse",
-        "personnelNumber": "1271",
-        "name": "Fadwa Rashed Aldosse",
-        "startDate": "2021-02-26",
-        "manager": "جهاد ايوبي",
-        "showroom": "2103-DAREEN MALL",
-        "showroomDetails": [
-            {
-                "name": "2103-DAREEN MALL",
-                "codes": [
-                    "2103-C",
-                    "2103-E"
-                ]
-            }
-        ],
-        "addressBooks": "2103-C;2103-E"
-    },
-    {
         "employeeId": "1342-فراس رتعان الحسن",
         "personnelNumber": "1342",
         "name": "فراس رتعان الحسن",
@@ -5965,24 +5947,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1903-C;1903-E"
-    },
-    {
-        "employeeId": "4835-بشاير الشهراني",
-        "personnelNumber": "4835",
-        "name": "بشاير الشهراني",
-        "startDate": "2026-01-21",
-        "manager": "جهاد ايوبي",
-        "showroom": "2201-JUBAIL MALL",
-        "showroomDetails": [
-            {
-                "name": "2201-JUBAIL MALL",
-                "codes": [
-                    "2201-C",
-                    "2201-E"
-                ]
-            }
-        ],
-        "addressBooks": "2201-C;2201-E"
     },
     {
         "employeeId": "4836-شهد الدوسري",
