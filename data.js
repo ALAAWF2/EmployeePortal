@@ -160,13 +160,20 @@ const EMPLOYEES = [
         "name": "سليم شمس الدين",
         "startDate": "2015-09-30",
         "manager": "عبيدة السباعي",
-        "showroom": "1001-ANDALOS MALL و 1009-BASATEEN MALL و 1012-SAUQ7 CENTER",
+        "showroom": "1001-ANDALOS MALL و 1007-KHAYYAT CENTER و 1009-BASATEEN MALL و 1012-SAUQ7 CENTER",
         "showroomDetails": [
             {
                 "name": "1001-ANDALOS MALL",
                 "codes": [
                     "1001-C",
                     "1001-E"
+                ]
+            },
+            {
+                "name": "1007-KHAYYAT CENTER",
+                "codes": [
+                    "1007-C",
+                    "1007-E"
                 ]
             },
             {
@@ -184,7 +191,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1001-C;1001-E;1009-C;1009-E;1012-C;1012-E"
+        "addressBooks": "1001-C;1001-E;1007-C;1007-E;1009-C;1009-E;1012-C;1012-E"
     },
     {
         "employeeId": "0090-عبد الناظر اون يابا",
@@ -4926,8 +4933,15 @@ const EMPLOYEES = [
         "name": "اصاله عزيز القرني",
         "startDate": "2025-09-11",
         "manager": "عبيدة السباعي",
-        "showroom": "1012-SAUQ7 CENTER",
+        "showroom": "1001-ANDALOS MALL و 1012-SAUQ7 CENTER",
         "showroomDetails": [
+            {
+                "name": "1001-ANDALOS MALL",
+                "codes": [
+                    "1001-C",
+                    "1001-E"
+                ]
+            },
             {
                 "name": "1012-SAUQ7 CENTER",
                 "codes": [
@@ -4936,7 +4950,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1012-C;1012-E"
+        "addressBooks": "1001-C;1001-E;1012-C;1012-E"
     },
     {
         "employeeId": "4705-مراد محمد مباركي",
@@ -4997,16 +5011,9 @@ const EMPLOYEES = [
         "personnelNumber": "4726",
         "name": "فاطمة القرني",
         "startDate": "2009-10-09",
-        "manager": "عبيدة السباعي",
-        "showroom": "1001-ANDALOS MALL و 1008-JEDDAH PARK MALL",
+        "manager": "شريفة العمري",
+        "showroom": "1008-JEDDAH PARK MALL",
         "showroomDetails": [
-            {
-                "name": "1001-ANDALOS MALL",
-                "codes": [
-                    "1001-C",
-                    "1001-E"
-                ]
-            },
             {
                 "name": "1008-JEDDAH PARK MALL",
                 "codes": [
@@ -5015,7 +5022,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1001-C;1001-E;1008-C;1008-E"
+        "addressBooks": "1008-C;1008-E"
     },
     {
         "employeeId": "4725-مياسة مروان",
@@ -5595,24 +5602,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1106-C;1106-E"
-    },
-    {
-        "employeeId": "4788-Arada Asiri",
-        "personnelNumber": "4788",
-        "name": "Arada Asiri",
-        "startDate": "2025-12-20",
-        "manager": "عبيدة السباعي",
-        "showroom": "1001-ANDALOS MALL",
-        "showroomDetails": [
-            {
-                "name": "1001-ANDALOS MALL",
-                "codes": [
-                    "1001-C",
-                    "1001-E"
-                ]
-            }
-        ],
-        "addressBooks": "1001-C;1001-E"
     },
     {
         "employeeId": "4795-Shog Alyobe",
@@ -6645,7 +6634,7 @@ const EMPLOYEES = [
         "name": "عصام علي",
         "startDate": "2026-02-16",
         "manager": "رضوان عطيوي",
-        "showroom": "1201-MAKKAH MALL",
+        "showroom": "1201-MAKKAH MALL و 1202-SITTEN CENTER",
         "showroomDetails": [
             {
                 "name": "1201-MAKKAH MALL",
@@ -6653,9 +6642,16 @@ const EMPLOYEES = [
                     "1201-C",
                     "1201-E"
                 ]
+            },
+            {
+                "name": "1202-SITTEN CENTER",
+                "codes": [
+                    "1202-C",
+                    "1202-E"
+                ]
             }
         ],
-        "addressBooks": "1201-C;1201-E"
+        "addressBooks": "1201-C;1201-E;1202-C;1202-E"
     },
     {
         "employeeId": "4882-سديم الشهراني",
@@ -6892,9 +6888,9 @@ const EMPLOYEES = [
         "addressBooks": "1202-C;1202-E"
     },
     {
-        "employeeId": "4926-محمد راشق",
+        "employeeId": "4926-محمد رشيق تيناكاتو ك",
         "personnelNumber": "4926",
-        "name": "محمد راشق",
+        "name": "محمد رشيق تيناكاتو ك",
         "startDate": "2026-03-16",
         "manager": "رضوان عطيوي",
         "showroom": "1201-MAKKAH MALL",
@@ -6946,9 +6942,9 @@ const EMPLOYEES = [
         "addressBooks": "2001-C;2001-E"
     },
     {
-        "employeeId": "4924-Mahmmad Nasih",
+        "employeeId": "4924-محمد ناصح موكايكال",
         "personnelNumber": "4924",
-        "name": "Mahmmad Nasih",
+        "name": "محمد ناصح موكايكال",
         "startDate": "2026-03-29",
         "manager": "منطقة الطائف",
         "showroom": "1302-KAMAL CENTER",
@@ -7036,9 +7032,9 @@ const EMPLOYEES = [
         "addressBooks": "1501-C;1501-E"
     },
     {
-        "employeeId": "4913-محمد رشاد",
+        "employeeId": "4913-محمد رشاد أليجينتاكا",
         "personnelNumber": "4913",
-        "name": "محمد رشاد",
+        "name": "محمد رشاد أليجينتاكا",
         "startDate": "2026-04-06",
         "manager": "عبيدة السباعي",
         "showroom": "1005-SALAM MALL",
@@ -7106,6 +7102,114 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "2001-C;2001-E"
+    },
+    {
+        "employeeId": "4922-مونافير علي باليالتو",
+        "personnelNumber": "4922",
+        "name": "مونافير علي باليالتو",
+        "startDate": "2026-03-12",
+        "manager": "خليل الصانع",
+        "showroom": "1501-DANA MALL",
+        "showroomDetails": [
+            {
+                "name": "1501-DANA MALL",
+                "codes": [
+                    "1501-C",
+                    "1501-E"
+                ]
+            }
+        ],
+        "addressBooks": "1501-C;1501-E"
+    },
+    {
+        "employeeId": "4938-طارق الخلف",
+        "personnelNumber": "4938",
+        "name": "طارق الخلف",
+        "startDate": "2026-04-15",
+        "manager": "محمدكلو",
+        "showroom": "1115-Alrabie Mall",
+        "showroomDetails": [
+            {
+                "name": "1115-Alrabie Mall",
+                "codes": [
+                    "1115-C",
+                    "1115-E"
+                ]
+            }
+        ],
+        "addressBooks": "1115-C;1115-E"
+    },
+    {
+        "employeeId": "4939-سلطان الهميم",
+        "personnelNumber": "4939",
+        "name": "سلطان الهميم",
+        "startDate": "2026-04-15",
+        "manager": "محمدكلو",
+        "showroom": "1107-RIYADH PARK MALL",
+        "showroomDetails": [
+            {
+                "name": "1107-RIYADH PARK MALL",
+                "codes": [
+                    "1107-C",
+                    "1107-E"
+                ]
+            }
+        ],
+        "addressBooks": "1107-C;1107-E"
+    },
+    {
+        "employeeId": "4940-العنود العصيمي",
+        "personnelNumber": "4940",
+        "name": "العنود العصيمي",
+        "startDate": "2026-04-15",
+        "manager": "محمدكلو",
+        "showroom": "1107-RIYADH PARK MALL",
+        "showroomDetails": [
+            {
+                "name": "1107-RIYADH PARK MALL",
+                "codes": [
+                    "1107-C",
+                    "1107-E"
+                ]
+            }
+        ],
+        "addressBooks": "1107-C;1107-E"
+    },
+    {
+        "employeeId": "4941-ساره الدوسري",
+        "personnelNumber": "4941",
+        "name": "ساره الدوسري",
+        "startDate": "2026-04-15",
+        "manager": "محمدكلو",
+        "showroom": "1111-KHALEEJ MALL",
+        "showroomDetails": [
+            {
+                "name": "1111-KHALEEJ MALL",
+                "codes": [
+                    "1111-C",
+                    "1111-E"
+                ]
+            }
+        ],
+        "addressBooks": "1111-C;1111-E"
+    },
+    {
+        "employeeId": "4942-رهام جابر",
+        "personnelNumber": "4942",
+        "name": "رهام جابر",
+        "startDate": "2026-04-15",
+        "manager": "عبد الجليل الحبال",
+        "showroom": "1102-OTHAIM MALL",
+        "showroomDetails": [
+            {
+                "name": "1102-OTHAIM MALL",
+                "codes": [
+                    "1102-C",
+                    "1102-E"
+                ]
+            }
+        ],
+        "addressBooks": "1102-C;1102-E"
     }
 ];
 
