@@ -1805,24 +1805,6 @@ const EMPLOYEES = [
         "addressBooks": "1007-C;1007-E"
     },
     {
-        "employeeId": "3665-لطيفة فهد الدوسري",
-        "personnelNumber": "3665",
-        "name": "لطيفة فهد الدوسري",
-        "startDate": "2023-08-12",
-        "manager": "جهاد ايوبي",
-        "showroom": "2102-NAKHEEL MALL",
-        "showroomDetails": [
-            {
-                "name": "2102-NAKHEEL MALL",
-                "codes": [
-                    "2102-C",
-                    "2102-E"
-                ]
-            }
-        ],
-        "addressBooks": "2102-C;2102-E"
-    },
-    {
         "employeeId": "3672-مشاعل عمري الصحفي",
         "personnelNumber": "3672",
         "name": "مشاعل عمري الصحفي",
@@ -3724,24 +3706,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "2103-C;2103-E"
-    },
-    {
-        "employeeId": "4507-Danah Ibrahim Maqbou",
-        "personnelNumber": "4507",
-        "name": "Danah Ibrahim Maqbou",
-        "startDate": "2025-02-22",
-        "manager": "جهاد ايوبي",
-        "showroom": "2102-NAKHEEL MALL",
-        "showroomDetails": [
-            {
-                "name": "2102-NAKHEEL MALL",
-                "codes": [
-                    "2102-C",
-                    "2102-E"
-                ]
-            }
-        ],
-        "addressBooks": "2102-C;2102-E"
     },
     {
         "employeeId": "4514-خالد خندش",
