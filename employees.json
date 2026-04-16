@@ -83578,11 +83578,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0ODk4MzsxNDg2MDQ5NDcwLDU2MzcxNTQyNTA7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0ODk4MzsyODUwNzI5NzQsNTYzNzE1NDI1MDswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
             "PersonnelNumber": "4085",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1202-C;1202-E",
+            "AddressBooks": "1202-C;1202-E;1203-C;1203-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",

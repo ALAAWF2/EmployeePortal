@@ -2310,7 +2310,7 @@ const EMPLOYEES = [
         "name": "فراس عبدالستار الخان",
         "startDate": "2024-03-12",
         "manager": "رضوان عطيوي",
-        "showroom": "1202-SITTEN CENTER",
+        "showroom": "1202-SITTEN CENTER و 1203- JABL OMAR MALL",
         "showroomDetails": [
             {
                 "name": "1202-SITTEN CENTER",
@@ -2318,9 +2318,16 @@ const EMPLOYEES = [
                     "1202-C",
                     "1202-E"
                 ]
+            },
+            {
+                "name": "1203- JABL OMAR MALL",
+                "codes": [
+                    "1203-C",
+                    "1203-E"
+                ]
             }
         ],
-        "addressBooks": "1202-C;1202-E"
+        "addressBooks": "1202-C;1202-E;1203-C;1203-E"
     },
     {
         "employeeId": "4099-شاديك",
