@@ -142760,11 +142760,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0OTQ0OTsyNjkwNDM5NTksNTYzNzE1NDcxNjswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0OTQ0OTsxMjgzOTQ3MTEzLDU2MzcxNTQ3MTY7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "4543",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1903-C;1903-E",
+            "AddressBooks": "",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",

@@ -4327,24 +4327,6 @@ const EMPLOYEES = [
         "addressBooks": "1010-C;1010-E"
     },
     {
-        "employeeId": "4543-Ahlam Mohammed Alsha",
-        "personnelNumber": "4543",
-        "name": "Ahlam Mohammed Alsha",
-        "startDate": "2025-03-10",
-        "manager": "اماني عسيري",
-        "showroom": "1903-MUJAN PARK MALL",
-        "showroomDetails": [
-            {
-                "name": "1903-MUJAN PARK MALL",
-                "codes": [
-                    "1903-C",
-                    "1903-E"
-                ]
-            }
-        ],
-        "addressBooks": "1903-C;1903-E"
-    },
-    {
         "employeeId": "4534-هاجر العلوني",
         "personnelNumber": "4534",
         "name": "هاجر العلوني",
