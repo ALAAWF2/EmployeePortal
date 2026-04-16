@@ -2787,24 +2787,6 @@ const EMPLOYEES = [
         "addressBooks": "2201-C;2201-E"
     },
     {
-        "employeeId": "4209-امجاد ظافر الشهري",
-        "personnelNumber": "4209",
-        "name": "امجاد ظافر الشهري",
-        "startDate": "2024-06-10",
-        "manager": "اماني عسيري",
-        "showroom": "1903-MUJAN PARK MALL",
-        "showroomDetails": [
-            {
-                "name": "1903-MUJAN PARK MALL",
-                "codes": [
-                    "1903-C",
-                    "1903-E"
-                ]
-            }
-        ],
-        "addressBooks": "1903-C;1903-E"
-    },
-    {
         "employeeId": "4217-ليان سليمان الرشود",
         "personnelNumber": "4217",
         "name": "ليان سليمان الرشود",
@@ -6591,8 +6573,15 @@ const EMPLOYEES = [
         "name": "عصام علي",
         "startDate": "2026-02-16",
         "manager": "رضوان عطيوي",
-        "showroom": "1202-SITTEN CENTER",
+        "showroom": "1201-MAKKAH MALL و 1202-SITTEN CENTER",
         "showroomDetails": [
+            {
+                "name": "1201-MAKKAH MALL",
+                "codes": [
+                    "1201-C",
+                    "1201-E"
+                ]
+            },
             {
                 "name": "1202-SITTEN CENTER",
                 "codes": [
@@ -6601,7 +6590,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1202-C;1202-E"
+        "addressBooks": "1201-C;1201-E;1202-C;1202-E"
     },
     {
         "employeeId": "4882-سديم الشهراني",
