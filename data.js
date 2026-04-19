@@ -2695,7 +2695,7 @@ const EMPLOYEES = [
         "name": "دول دول لينشاد",
         "startDate": "2024-06-05",
         "manager": "عبدالله السرداح",
-        "showroom": "1105-TALA MALL و 1109-HAYAT MALL",
+        "showroom": "1105-TALA MALL",
         "showroomDetails": [
             {
                 "name": "1105-TALA MALL",
@@ -2703,16 +2703,9 @@ const EMPLOYEES = [
                     "1105-C",
                     "1105-E"
                 ]
-            },
-            {
-                "name": "1109-HAYAT MALL",
-                "codes": [
-                    "1109-C",
-                    "1109-E"
-                ]
             }
         ],
-        "addressBooks": "1105-C;1105-E;1109-C;1109-E"
+        "addressBooks": "1105-C;1105-E"
     },
     {
         "employeeId": "4199-امل الرويلي",

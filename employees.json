@@ -96913,11 +96913,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0OTA4ODsxNjM4NjI5MTQwLDU2MzcxNTQzNTU7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0OTA4ODsxMTk3MzI0NzUyLDU2MzcxNTQzNTU7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "4198",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1105-C;1105-E;1109-C;1109-E",
+            "AddressBooks": "1105-C;1105-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",
