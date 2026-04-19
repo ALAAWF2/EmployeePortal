@@ -713,15 +713,8 @@ const EMPLOYEES = [
         "name": "صالح",
         "startDate": "2021-08-01",
         "manager": "عبدالله السرداح",
-        "showroom": "1105-TALA MALL و 1109-HAYAT MALL",
+        "showroom": "1109-HAYAT MALL",
         "showroomDetails": [
-            {
-                "name": "1105-TALA MALL",
-                "codes": [
-                    "1105-C",
-                    "1105-E"
-                ]
-            },
             {
                 "name": "1109-HAYAT MALL",
                 "codes": [
@@ -730,7 +723,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1105-C;1105-E;1109-C;1109-E"
+        "addressBooks": "1109-C;1109-E"
     },
     {
         "employeeId": "1544-محمد شاجاهان فالاثود",
@@ -4518,24 +4511,6 @@ const EMPLOYEES = [
         "addressBooks": "1105-C;1105-E"
     },
     {
-        "employeeId": "4674-أمواج علي قحل",
-        "personnelNumber": "4674",
-        "name": "أمواج علي قحل",
-        "startDate": "2025-08-18",
-        "manager": "عبدالله السرداح",
-        "showroom": "1109-HAYAT MALL",
-        "showroomDetails": [
-            {
-                "name": "1109-HAYAT MALL",
-                "codes": [
-                    "1109-C",
-                    "1109-E"
-                ]
-            }
-        ],
-        "addressBooks": "1109-C;1109-E"
-    },
-    {
         "employeeId": "4663-رحمه احمد القرني",
         "personnelNumber": "4663",
         "name": "رحمه احمد القرني",
@@ -5381,24 +5356,6 @@ const EMPLOYEES = [
         "addressBooks": "1110-C;1110-E"
     },
     {
-        "employeeId": "4769-Sara Saleh",
-        "personnelNumber": "4769",
-        "name": "Sara Saleh",
-        "startDate": "2025-12-17",
-        "manager": "عبدالله السرداح",
-        "showroom": "1109-HAYAT MALL",
-        "showroomDetails": [
-            {
-                "name": "1109-HAYAT MALL",
-                "codes": [
-                    "1109-C",
-                    "1109-E"
-                ]
-            }
-        ],
-        "addressBooks": "1109-C;1109-E"
-    },
-    {
         "employeeId": "4789-عبير القرني",
         "personnelNumber": "4789",
         "name": "عبير القرني",
@@ -5638,24 +5595,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "2102-C;2102-E"
-    },
-    {
-        "employeeId": "4811-Wafaa Alyami",
-        "personnelNumber": "4811",
-        "name": "Wafaa Alyami",
-        "startDate": "2026-01-05",
-        "manager": "عبدالله السرداح",
-        "showroom": "1109-HAYAT MALL",
-        "showroomDetails": [
-            {
-                "name": "1109-HAYAT MALL",
-                "codes": [
-                    "1109-C",
-                    "1109-E"
-                ]
-            }
-        ],
-        "addressBooks": "1109-C;1109-E"
     },
     {
         "employeeId": "4812-ريهام رغفاوي",
