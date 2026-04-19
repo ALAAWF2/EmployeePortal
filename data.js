@@ -3287,24 +3287,6 @@ const EMPLOYEES = [
         "addressBooks": "1201-C;1201-E"
     },
     {
-        "employeeId": "4398-Ghada Shuwaymi AlOta",
-        "personnelNumber": "4398",
-        "name": "Ghada Shuwaymi AlOta",
-        "startDate": "2024-11-13",
-        "manager": "عبدالله السرداح",
-        "showroom": "1105-TALA MALL",
-        "showroomDetails": [
-            {
-                "name": "1105-TALA MALL",
-                "codes": [
-                    "1105-C",
-                    "1105-E"
-                ]
-            }
-        ],
-        "addressBooks": "1105-C;1105-E"
-    },
-    {
         "employeeId": "4401-نوره الغامدي",
         "personnelNumber": "4401",
         "name": "نوره الغامدي",
@@ -6210,24 +6192,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1402-C;1402-E"
-    },
-    {
-        "employeeId": "4852-نوف الغامدي",
-        "personnelNumber": "4852",
-        "name": "نوف الغامدي",
-        "startDate": "2026-02-10",
-        "manager": "عبدالله السرداح",
-        "showroom": "1105-TALA MALL",
-        "showroomDetails": [
-            {
-                "name": "1105-TALA MALL",
-                "codes": [
-                    "1105-C",
-                    "1105-E"
-                ]
-            }
-        ],
-        "addressBooks": "1105-C;1105-E"
     },
     {
         "employeeId": "4755-شهير عبدالله",
