@@ -1285,7 +1285,7 @@ const EMPLOYEES = [
         "name": "افنان حمد السواط",
         "startDate": "2022-06-08",
         "manager": "شريفة العمري",
-        "showroom": "1004-ARAB MALL و 1006-YASMIN MALL",
+        "showroom": "1004-ARAB MALL",
         "showroomDetails": [
             {
                 "name": "1004-ARAB MALL",
@@ -1293,16 +1293,9 @@ const EMPLOYEES = [
                     "1004-C",
                     "1004-E"
                 ]
-            },
-            {
-                "name": "1006-YASMIN MALL",
-                "codes": [
-                    "1006-C",
-                    "1006-E"
-                ]
             }
         ],
-        "addressBooks": "1004-C;1004-E;1006-C;1006-E"
+        "addressBooks": "1004-C;1004-E"
     },
     {
         "employeeId": "3245-رنيم ابراهيم الحربي",

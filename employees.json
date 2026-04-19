@@ -26428,11 +26428,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0ODUzMzs2ODIwOTk3MjcsNTYzNzE1MzgwMDswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0ODUzMzsxMjc3MDQwNzY4LDU2MzcxNTM4MDA7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "3057",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1004-C;1004-E;1006-C;1006-E",
+            "AddressBooks": "1004-C;1004-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",
