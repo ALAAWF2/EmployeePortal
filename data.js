@@ -5705,24 +5705,6 @@ const EMPLOYEES = [
         "addressBooks": "1101-C;1101-E"
     },
     {
-        "employeeId": "4825-ربا الحربي",
-        "personnelNumber": "4825",
-        "name": "ربا الحربي",
-        "startDate": "2026-01-17",
-        "manager": "عبدالله السرداح",
-        "showroom": "2401-NAKHEEL PLAZA MALL",
-        "showroomDetails": [
-            {
-                "name": "2401-NAKHEEL PLAZA MALL",
-                "codes": [
-                    "2401-C",
-                    "2401-E"
-                ]
-            }
-        ],
-        "addressBooks": "2401-C;2401-E"
-    },
-    {
         "employeeId": "4824-جمانه جمال",
         "personnelNumber": "4824",
         "name": "جمانه جمال",
@@ -5793,24 +5775,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1906-C;1906-E"
-    },
-    {
-        "employeeId": "4832-اشواق الحربي",
-        "personnelNumber": "4832",
-        "name": "اشواق الحربي",
-        "startDate": "2026-01-19",
-        "manager": "عبدالله السرداح",
-        "showroom": "2401-NAKHEEL PLAZA MALL",
-        "showroomDetails": [
-            {
-                "name": "2401-NAKHEEL PLAZA MALL",
-                "codes": [
-                    "2401-C",
-                    "2401-E"
-                ]
-            }
-        ],
-        "addressBooks": "2401-C;2401-E"
     },
     {
         "employeeId": "4833-احلام عسيري",
