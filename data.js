@@ -2580,7 +2580,7 @@ const EMPLOYEES = [
         "name": "محمد ارشد",
         "startDate": "2024-05-26",
         "manager": "خليل الصانع",
-        "showroom": "1401-ALIA MALL",
+        "showroom": "1401-ALIA MALL و 1402-NOOR MALL",
         "showroomDetails": [
             {
                 "name": "1401-ALIA MALL",
@@ -2588,9 +2588,16 @@ const EMPLOYEES = [
                     "1401-C",
                     "1401-E"
                 ]
+            },
+            {
+                "name": "1402-NOOR MALL",
+                "codes": [
+                    "1402-C",
+                    "1402-E"
+                ]
             }
         ],
-        "addressBooks": "1401-C;1401-E"
+        "addressBooks": "1401-C;1401-E;1402-C;1402-E"
     },
     {
         "employeeId": "4170-إبراهيم بودشا",
@@ -2857,17 +2864,17 @@ const EMPLOYEES = [
         "name": "هيله هادي العليلي",
         "startDate": "2024-07-13",
         "manager": "اماني عسيري",
-        "showroom": "1901-RASHID MALL",
+        "showroom": "1906-LAVANDA PARK",
         "showroomDetails": [
             {
-                "name": "1901-RASHID MALL",
+                "name": "1906-LAVANDA PARK",
                 "codes": [
-                    "1901-C",
-                    "1901-E"
+                    "1906-C",
+                    "1906-E"
                 ]
             }
         ],
-        "addressBooks": "1901-C;1901-E"
+        "addressBooks": "1906-C;1906-E"
     },
     {
         "employeeId": "4259-جمانة عبدالله العسير",
