@@ -4374,24 +4374,6 @@ const EMPLOYEES = [
         "addressBooks": "2102-C;2102-E"
     },
     {
-        "employeeId": "4626-اريام خالد الزهراني",
-        "personnelNumber": "4626",
-        "name": "اريام خالد الزهراني",
-        "startDate": "2025-07-01",
-        "manager": "اماني عسيري",
-        "showroom": "1904-BAHA MALL",
-        "showroomDetails": [
-            {
-                "name": "1904-BAHA MALL",
-                "codes": [
-                    "1904-C",
-                    "1904-E"
-                ]
-            }
-        ],
-        "addressBooks": "1904-C;1904-E"
-    },
-    {
         "employeeId": "4635-عائشه محمد البركاتي",
         "personnelNumber": "4635",
         "name": "عائشه محمد البركاتي",
@@ -5771,17 +5753,17 @@ const EMPLOYEES = [
         "name": "Renam Alsharani",
         "startDate": "2026-01-19",
         "manager": "اماني عسيري",
-        "showroom": "1906-LAVANDA PARK",
+        "showroom": "1901-RASHID MALL",
         "showroomDetails": [
             {
-                "name": "1906-LAVANDA PARK",
+                "name": "1901-RASHID MALL",
                 "codes": [
-                    "1906-C",
-                    "1906-E"
+                    "1901-C",
+                    "1901-E"
                 ]
             }
         ],
-        "addressBooks": "1906-C;1906-E"
+        "addressBooks": "1901-C;1901-E"
     },
     {
         "employeeId": "4833-احلام عسيري",
