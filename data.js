@@ -6181,15 +6181,8 @@ const EMPLOYEES = [
         "name": "لجين الروقي",
         "startDate": "2026-02-11",
         "manager": "المنطقة الغربية",
-        "showroom": "1006-YASMIN MALL و 1010-VILLAGE MALL",
+        "showroom": "1010-VILLAGE MALL",
         "showroomDetails": [
-            {
-                "name": "1006-YASMIN MALL",
-                "codes": [
-                    "1006-C",
-                    "1006-E"
-                ]
-            },
             {
                 "name": "1010-VILLAGE MALL",
                 "codes": [
@@ -6198,7 +6191,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1006-C;1006-E;1010-C;1010-E"
+        "addressBooks": "1010-C;1010-E"
     },
     {
         "employeeId": "4845-نوير القحطاني",
@@ -6944,6 +6937,24 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1102-C;1102-E"
+    },
+    {
+        "employeeId": "4946-ولاء غانم",
+        "personnelNumber": "4946",
+        "name": "ولاء غانم",
+        "startDate": "2026-04-19",
+        "manager": "عبدالله السرداح",
+        "showroom": "1109-HAYAT MALL",
+        "showroomDetails": [
+            {
+                "name": "1109-HAYAT MALL",
+                "codes": [
+                    "1109-C",
+                    "1109-E"
+                ]
+            }
+        ],
+        "addressBooks": "1109-C;1109-E"
     }
 ];
 
