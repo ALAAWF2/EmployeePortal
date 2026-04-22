@@ -4338,24 +4338,6 @@ const EMPLOYEES = [
         "addressBooks": "1006-C;1006-E"
     },
     {
-        "employeeId": "4637-منير عشق القحطاني",
-        "personnelNumber": "4637",
-        "name": "منير عشق القحطاني",
-        "startDate": "2025-07-02",
-        "manager": "محمدكلو",
-        "showroom": "1110- RIYADH GALLERY MALL",
-        "showroomDetails": [
-            {
-                "name": "1110- RIYADH GALLERY MALL",
-                "codes": [
-                    "1110-C",
-                    "1110-E"
-                ]
-            }
-        ],
-        "addressBooks": "1110-C;1110-E"
-    },
-    {
         "employeeId": "4624-ملاك صالح الغامدي",
         "personnelNumber": "4624",
         "name": "ملاك صالح الغامدي",
@@ -4757,24 +4739,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1110-C;1110-E"
-    },
-    {
-        "employeeId": "4683-حنين ناصر باسلوم",
-        "personnelNumber": "4683",
-        "name": "حنين ناصر باسلوم",
-        "startDate": "2025-09-03",
-        "manager": "محمدكلو",
-        "showroom": "1111-KHALEEJ MALL",
-        "showroomDetails": [
-            {
-                "name": "1111-KHALEEJ MALL",
-                "codes": [
-                    "1111-C",
-                    "1111-E"
-                ]
-            }
-        ],
-        "addressBooks": "1111-C;1111-E"
     },
     {
         "employeeId": "4696-اصاله عزيز القرني",
