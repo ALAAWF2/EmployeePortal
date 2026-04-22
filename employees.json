@@ -193687,11 +193687,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE4NjYwNDsxOTc0MDAwNTU0LDU2MzczOTU0NDI7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE4NjYwNDsxNjAwMjQ0OTg2LDU2MzczOTU0NDI7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "4940",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1107-C;1107-E",
+            "AddressBooks": "",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",

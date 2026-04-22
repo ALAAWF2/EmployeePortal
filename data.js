@@ -6867,24 +6867,6 @@ const EMPLOYEES = [
         "addressBooks": "1107-C;1107-E"
     },
     {
-        "employeeId": "4940-العنود العصيمي",
-        "personnelNumber": "4940",
-        "name": "العنود العصيمي",
-        "startDate": "2026-04-15",
-        "manager": "محمدكلو",
-        "showroom": "1107-RIYADH PARK MALL",
-        "showroomDetails": [
-            {
-                "name": "1107-RIYADH PARK MALL",
-                "codes": [
-                    "1107-C",
-                    "1107-E"
-                ]
-            }
-        ],
-        "addressBooks": "1107-C;1107-E"
-    },
-    {
         "employeeId": "4941-ساره الدوسري",
         "personnelNumber": "4941",
         "name": "ساره الدوسري",
