@@ -1611,24 +1611,6 @@ const EMPLOYEES = [
         "addressBooks": "2102-C;2102-E"
     },
     {
-        "employeeId": "3417-Rana Refede Alshehri",
-        "personnelNumber": "3417",
-        "name": "Rana Refede Alshehri",
-        "startDate": "2022-12-31",
-        "manager": "محمدكلو",
-        "showroom": "1113-PARK AVENUE MALL",
-        "showroomDetails": [
-            {
-                "name": "1113-PARK AVENUE MALL",
-                "codes": [
-                    "1113-C",
-                    "1113-E"
-                ]
-            }
-        ],
-        "addressBooks": "1113-C;1113-E"
-    },
-    {
         "employeeId": "3495-نورة فوزي الوسمي",
         "personnelNumber": "3495",
         "name": "نورة فوزي الوسمي",
@@ -3298,24 +3280,6 @@ const EMPLOYEES = [
         "addressBooks": "1904-C;1904-E"
     },
     {
-        "employeeId": "4403-Arwa Ali Akfah",
-        "personnelNumber": "4403",
-        "name": "Arwa Ali Akfah",
-        "startDate": "2024-11-18",
-        "manager": "محمدكلو",
-        "showroom": "1111-KHALEEJ MALL",
-        "showroomDetails": [
-            {
-                "name": "1111-KHALEEJ MALL",
-                "codes": [
-                    "1111-C",
-                    "1111-E"
-                ]
-            }
-        ],
-        "addressBooks": "1111-C;1111-E"
-    },
-    {
         "employeeId": "4408-روابي الهوساوي",
         "personnelNumber": "4408",
         "name": "روابي الهوساوي",
@@ -3663,15 +3627,8 @@ const EMPLOYEES = [
         "name": "خالد خندش",
         "startDate": "2025-02-24",
         "manager": "محمدكلو",
-        "showroom": "1111-KHALEEJ MALL و 1114-Malgha Mall",
+        "showroom": "1114-Malgha Mall",
         "showroomDetails": [
-            {
-                "name": "1111-KHALEEJ MALL",
-                "codes": [
-                    "1111-C",
-                    "1111-E"
-                ]
-            },
             {
                 "name": "1114-Malgha Mall",
                 "codes": [
@@ -3680,7 +3637,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1111-C;1111-E;1114-C;1114-E"
+        "addressBooks": "1114-C;1114-E"
     },
     {
         "employeeId": "4516-حوراء عبدالله",
@@ -3915,24 +3872,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "2001-C;2001-E"
-    },
-    {
-        "employeeId": "4564-اثير شراحيلي",
-        "personnelNumber": "4564",
-        "name": "اثير شراحيلي",
-        "startDate": "2025-04-22",
-        "manager": "محمدكلو",
-        "showroom": "1115-Alrabie Mall",
-        "showroomDetails": [
-            {
-                "name": "1115-Alrabie Mall",
-                "codes": [
-                    "1115-C",
-                    "1115-E"
-                ]
-            }
-        ],
-        "addressBooks": "1115-C;1115-E"
     },
     {
         "employeeId": "4565-Mashael Fahad AlAmri",
@@ -6399,24 +6338,6 @@ const EMPLOYEES = [
         "addressBooks": "1115-C;1115-E"
     },
     {
-        "employeeId": "4886-زين العابدين العلوه",
-        "personnelNumber": "4886",
-        "name": "زين العابدين العلوه",
-        "startDate": "2026-02-22",
-        "manager": "محمدكلو",
-        "showroom": "1114-Malgha Mall",
-        "showroomDetails": [
-            {
-                "name": "1114-Malgha Mall",
-                "codes": [
-                    "1114-C",
-                    "1114-E"
-                ]
-            }
-        ],
-        "addressBooks": "1114-C;1114-E"
-    },
-    {
         "employeeId": "4888-اماني الحسني",
         "personnelNumber": "4888",
         "name": "اماني الحسني",
@@ -6829,24 +6750,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1107-C;1107-E"
-    },
-    {
-        "employeeId": "4941-ساره الدوسري",
-        "personnelNumber": "4941",
-        "name": "ساره الدوسري",
-        "startDate": "2026-04-15",
-        "manager": "محمدكلو",
-        "showroom": "1111-KHALEEJ MALL",
-        "showroomDetails": [
-            {
-                "name": "1111-KHALEEJ MALL",
-                "codes": [
-                    "1111-C",
-                    "1111-E"
-                ]
-            }
-        ],
-        "addressBooks": "1111-C;1111-E"
     },
     {
         "employeeId": "4942-رهام جابر",
