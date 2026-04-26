@@ -4490,17 +4490,17 @@ const EMPLOYEES = [
         "name": "سلمى علي مجرشي",
         "startDate": "2025-08-13",
         "manager": "محمدكلو",
-        "showroom": "1104-NAKHEEL MALL",
+        "showroom": "1111-KHALEEJ MALL",
         "showroomDetails": [
             {
-                "name": "1104-NAKHEEL MALL",
+                "name": "1111-KHALEEJ MALL",
                 "codes": [
-                    "1104-C",
-                    "1104-E"
+                    "1111-C",
+                    "1111-E"
                 ]
             }
         ],
-        "addressBooks": "1104-C;1104-E"
+        "addressBooks": "1111-C;1111-E"
     },
     {
         "employeeId": "4664-نجد درزى الحربي",
