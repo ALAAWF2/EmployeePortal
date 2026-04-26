@@ -350,7 +350,7 @@ const EMPLOYEES = [
         "name": "عاصم عبد الودود البا",
         "startDate": "2018-01-25",
         "manager": "رضوان عطيوي",
-        "showroom": "1201-MAKKAH MALL",
+        "showroom": "1201-MAKKAH MALL و 1203- JABL OMAR MALL",
         "showroomDetails": [
             {
                 "name": "1201-MAKKAH MALL",
@@ -358,9 +358,16 @@ const EMPLOYEES = [
                     "1201-C",
                     "1201-E"
                 ]
+            },
+            {
+                "name": "1203- JABL OMAR MALL",
+                "codes": [
+                    "1203-C",
+                    "1203-E"
+                ]
             }
         ],
-        "addressBooks": "1201-C;1201-E"
+        "addressBooks": "1201-C;1201-E;1203-C;1203-E"
     },
     {
         "employeeId": "0488-نزار فيسيار",
@@ -6786,6 +6793,78 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1109-C;1109-E"
+    },
+    {
+        "employeeId": "4947-سعود ناصر",
+        "personnelNumber": "4947",
+        "name": "سعود ناصر",
+        "startDate": "2026-04-21",
+        "manager": "محمدكلو",
+        "showroom": "1107-RIYADH PARK MALL",
+        "showroomDetails": [
+            {
+                "name": "1107-RIYADH PARK MALL",
+                "codes": [
+                    "1107-C",
+                    "1107-E"
+                ]
+            }
+        ],
+        "addressBooks": "1107-C;1107-E"
+    },
+    {
+        "employeeId": "4944-منال هلال",
+        "personnelNumber": "4944",
+        "name": "منال هلال",
+        "startDate": "2026-04-21",
+        "manager": "عبدالله السرداح",
+        "showroom": "1109-HAYAT MALL",
+        "showroomDetails": [
+            {
+                "name": "1109-HAYAT MALL",
+                "codes": [
+                    "1109-C",
+                    "1109-E"
+                ]
+            }
+        ],
+        "addressBooks": "1109-C;1109-E"
+    },
+    {
+        "employeeId": "4943-منى العمري",
+        "personnelNumber": "4943",
+        "name": "منى العمري",
+        "startDate": "2026-04-21",
+        "manager": "محمدكلو",
+        "showroom": "1113-PARK AVENUE MALL",
+        "showroomDetails": [
+            {
+                "name": "1113-PARK AVENUE MALL",
+                "codes": [
+                    "1113-C",
+                    "1113-E"
+                ]
+            }
+        ],
+        "addressBooks": "1113-C;1113-E"
+    },
+    {
+        "employeeId": "4945-غاده ابراهيم",
+        "personnelNumber": "4945",
+        "name": "غاده ابراهيم",
+        "startDate": "2026-04-22",
+        "manager": "محمدكلو",
+        "showroom": "1114-Malgha Mall",
+        "showroomDetails": [
+            {
+                "name": "1114-Malgha Mall",
+                "codes": [
+                    "1114-C",
+                    "1114-E"
+                ]
+            }
+        ],
+        "addressBooks": "1114-C;1114-E"
     }
 ];
 
