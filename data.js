@@ -6382,17 +6382,17 @@ const EMPLOYEES = [
         "name": "نوره البيشي",
         "startDate": "2026-02-27",
         "manager": "محمدكلو",
-        "showroom": "1104-NAKHEEL MALL",
+        "showroom": "1114-Malgha Mall",
         "showroomDetails": [
             {
-                "name": "1104-NAKHEEL MALL",
+                "name": "1114-Malgha Mall",
                 "codes": [
-                    "1104-C",
-                    "1104-E"
+                    "1114-C",
+                    "1114-E"
                 ]
             }
         ],
-        "addressBooks": "1104-C;1104-E"
+        "addressBooks": "1114-C;1114-E"
     },
     {
         "employeeId": "4898-امل الجدعاني",
