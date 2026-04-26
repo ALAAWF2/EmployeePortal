@@ -1666,17 +1666,17 @@ const EMPLOYEES = [
         "name": "محمد ارشد ايليداث",
         "startDate": "2023-03-20",
         "manager": "محمدكلو",
-        "showroom": "1104-NAKHEEL MALL",
+        "showroom": "1110- RIYADH GALLERY MALL",
         "showroomDetails": [
             {
-                "name": "1104-NAKHEEL MALL",
+                "name": "1110- RIYADH GALLERY MALL",
                 "codes": [
-                    "1104-C",
-                    "1104-E"
+                    "1110-C",
+                    "1110-E"
                 ]
             }
         ],
-        "addressBooks": "1104-C;1104-E"
+        "addressBooks": "1110-C;1110-E"
     },
     {
         "employeeId": "3588-محمد مونبار",

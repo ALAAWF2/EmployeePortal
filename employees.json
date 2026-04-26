@@ -35572,11 +35572,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0ODYwNTs5ODk5MTE0MzksNTYzNzE1Mzg3MjswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0ODYwNTsxNzg2MjcwNjYyLDU2MzcxNTM4NzI7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "3539",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1104-C;1104-E",
+            "AddressBooks": "1110-C;1110-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",
