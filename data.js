@@ -1442,18 +1442,18 @@ const EMPLOYEES = [
         "personnelNumber": "3341",
         "name": "محمد فيفاز",
         "startDate": "2022-10-22",
-        "manager": "محمدكلو",
-        "showroom": "1104-NAKHEEL MALL",
+        "manager": "عبدالله السرداح",
+        "showroom": "1109-HAYAT MALL",
         "showroomDetails": [
             {
-                "name": "1104-NAKHEEL MALL",
+                "name": "1109-HAYAT MALL",
                 "codes": [
-                    "1104-C",
-                    "1104-E"
+                    "1109-C",
+                    "1109-E"
                 ]
             }
         ],
-        "addressBooks": "1104-C;1104-E"
+        "addressBooks": "1109-C;1109-E"
     },
     {
         "employeeId": "3345-ثاجودين باثنقادي",
