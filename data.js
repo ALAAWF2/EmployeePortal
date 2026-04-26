@@ -6382,17 +6382,17 @@ const EMPLOYEES = [
         "name": "بلقيس الزهراني",
         "startDate": "2026-02-25",
         "manager": "محمدكلو",
-        "showroom": "1104-NAKHEEL MALL",
+        "showroom": "1113-PARK AVENUE MALL",
         "showroomDetails": [
             {
-                "name": "1104-NAKHEEL MALL",
+                "name": "1113-PARK AVENUE MALL",
                 "codes": [
-                    "1104-C",
-                    "1104-E"
+                    "1113-C",
+                    "1113-E"
                 ]
             }
         ],
-        "addressBooks": "1104-C;1104-E"
+        "addressBooks": "1113-C;1113-E"
     },
     {
         "employeeId": "4871-نوره البيشي",
@@ -6879,6 +6879,24 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1114-C;1114-E"
+    },
+    {
+        "employeeId": "4948-ليان تركي",
+        "personnelNumber": "4948",
+        "name": "ليان تركي",
+        "startDate": "2026-04-25",
+        "manager": "المنطقة الغربية",
+        "showroom": "1006-YASMIN MALL",
+        "showroomDetails": [
+            {
+                "name": "1006-YASMIN MALL",
+                "codes": [
+                    "1006-C",
+                    "1006-E"
+                ]
+            }
+        ],
+        "addressBooks": "1006-C;1006-E"
     }
 ];
 
