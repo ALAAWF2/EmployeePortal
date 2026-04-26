@@ -4629,24 +4629,6 @@ const EMPLOYEES = [
         "addressBooks": "2102-C;2102-E"
     },
     {
-        "employeeId": "4682-ريوف محمد الحارثي",
-        "personnelNumber": "4682",
-        "name": "ريوف محمد الحارثي",
-        "startDate": "2025-09-02",
-        "manager": "محمدكلو",
-        "showroom": "1104-NAKHEEL MALL",
-        "showroomDetails": [
-            {
-                "name": "1104-NAKHEEL MALL",
-                "codes": [
-                    "1104-C",
-                    "1104-E"
-                ]
-            }
-        ],
-        "addressBooks": "1104-C;1104-E"
-    },
-    {
         "employeeId": "4684-عريب فرج القحطاني",
         "personnelNumber": "4684",
         "name": "عريب فرج القحطاني",
