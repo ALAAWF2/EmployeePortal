@@ -3568,11 +3568,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0ODM1MzsxMzczOTQ4OTYwLDU2MzcxNTM2MjA7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0ODM1Mzs5NjgxMTA5MTEsNTYzNzE1MzYyMDswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
             "PersonnelNumber": "0263",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1104-C;1104-E",
+            "AddressBooks": "1104-C;1104-E;1107-C;1107-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",

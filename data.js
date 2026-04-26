@@ -289,7 +289,7 @@ const EMPLOYEES = [
         "name": "فيصل كوتارتودي (بابو",
         "startDate": "2017-08-19",
         "manager": "محمدكلو",
-        "showroom": "1104-NAKHEEL MALL",
+        "showroom": "1104-NAKHEEL MALL و 1107-RIYADH PARK MALL",
         "showroomDetails": [
             {
                 "name": "1104-NAKHEEL MALL",
@@ -297,9 +297,16 @@ const EMPLOYEES = [
                     "1104-C",
                     "1104-E"
                 ]
+            },
+            {
+                "name": "1107-RIYADH PARK MALL",
+                "codes": [
+                    "1107-C",
+                    "1107-E"
+                ]
             }
         ],
-        "addressBooks": "1104-C;1104-E"
+        "addressBooks": "1104-C;1104-E;1107-C;1107-E"
     },
     {
         "employeeId": "0284-محمد عدنان محمد بشير",
