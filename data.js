@@ -4037,7 +4037,7 @@ const EMPLOYEES = [
         "name": "حسان العرافي",
         "startDate": "2025-05-26",
         "manager": "رضوان عطيوي",
-        "showroom": "1201-MAKKAH MALL",
+        "showroom": "1201-MAKKAH MALL و 1202-SITTEN CENTER",
         "showroomDetails": [
             {
                 "name": "1201-MAKKAH MALL",
@@ -4045,9 +4045,16 @@ const EMPLOYEES = [
                     "1201-C",
                     "1201-E"
                 ]
+            },
+            {
+                "name": "1202-SITTEN CENTER",
+                "codes": [
+                    "1202-C",
+                    "1202-E"
+                ]
             }
         ],
-        "addressBooks": "1201-C;1201-E"
+        "addressBooks": "1201-C;1201-E;1202-C;1202-E"
     },
     {
         "employeeId": "4603-سلطان حارس",
