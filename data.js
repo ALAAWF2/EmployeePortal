@@ -217,7 +217,7 @@ const EMPLOYEES = [
         "name": "محمود محمد خير محجوب",
         "startDate": "2017-02-14",
         "manager": "رضوان عطيوي",
-        "showroom": "1203- JABL OMAR MALL",
+        "showroom": "1203- JABL OMAR MALL و 1402-NOOR MALL",
         "showroomDetails": [
             {
                 "name": "1203- JABL OMAR MALL",
@@ -225,9 +225,16 @@ const EMPLOYEES = [
                     "1203-C",
                     "1203-E"
                 ]
+            },
+            {
+                "name": "1402-NOOR MALL",
+                "codes": [
+                    "1402-C",
+                    "1402-E"
+                ]
             }
         ],
-        "addressBooks": "1203-C;1203-E"
+        "addressBooks": "1203-C;1203-E;1402-C;1402-E"
     },
     {
         "employeeId": "0198-معتصم اسماعيل العامر",
