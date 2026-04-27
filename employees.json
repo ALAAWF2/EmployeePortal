@@ -7124,11 +7124,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0ODM4MTs0NjA2NzIzNzAsNTYzNzE1MzY0ODswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0ODM4MTsxNjA2NjQ0MzEsNTYzNzE1MzY0ODswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
             "PersonnelNumber": "0822",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1004-C;1004-E",
+            "AddressBooks": "1008-C;1008-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",

@@ -418,17 +418,17 @@ const EMPLOYEES = [
         "name": "عبد الغفور جهاد الأح",
         "startDate": "2019-09-17",
         "manager": "شريفة العمري",
-        "showroom": "1004-ARAB MALL",
+        "showroom": "1008-JEDDAH PARK MALL",
         "showroomDetails": [
             {
-                "name": "1004-ARAB MALL",
+                "name": "1008-JEDDAH PARK MALL",
                 "codes": [
-                    "1004-C",
-                    "1004-E"
+                    "1008-C",
+                    "1008-E"
                 ]
             }
         ],
-        "addressBooks": "1004-C;1004-E"
+        "addressBooks": "1008-C;1008-E"
     },
     {
         "employeeId": "0869-MOTAR MOKHTAR ALHASA",
