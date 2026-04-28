@@ -4873,24 +4873,6 @@ const EMPLOYEES = [
         "addressBooks": "1105-C;1105-E;1109-C;1109-E"
     },
     {
-        "employeeId": "4715-ندى القرني",
-        "personnelNumber": "4715",
-        "name": "ندى القرني",
-        "startDate": "2025-10-07",
-        "manager": "شريفة العمري",
-        "showroom": "1004-ARAB MALL",
-        "showroomDetails": [
-            {
-                "name": "1004-ARAB MALL",
-                "codes": [
-                    "1004-C",
-                    "1004-E"
-                ]
-            }
-        ],
-        "addressBooks": "1004-C;1004-E"
-    },
-    {
         "employeeId": "4718-محمود اسماعيل الرفاع",
         "personnelNumber": "4718",
         "name": "محمود اسماعيل الرفاع",

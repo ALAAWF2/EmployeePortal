@@ -156476,11 +156476,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE1OTU5MTsyMDU3NzA1ODIwLDU2MzcxNzM4NTI7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE1OTU5MTsxNDQyNDIzOTQxLDU2MzcxNzM4NTI7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "4715",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1004-C;1004-E",
+            "AddressBooks": "",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",
