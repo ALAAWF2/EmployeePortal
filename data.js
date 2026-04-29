@@ -1222,9 +1222,9 @@ const EMPLOYEES = [
         "addressBooks": "1011-C;1011-E"
     },
     {
-        "employeeId": "2816-Marwa Mubarak Alshal",
+        "employeeId": "2816-مروة الشعلان",
         "personnelNumber": "2816",
-        "name": "Marwa Mubarak Alshal",
+        "name": "مروة الشعلان",
         "startDate": "2021-12-20",
         "manager": "جهاد ايوبي",
         "showroom": "2101-DHAHRAN MALL",
@@ -4963,9 +4963,9 @@ const EMPLOYEES = [
         "addressBooks": "1101-C;1101-E"
     },
     {
-        "employeeId": "1851-Marwa Alshalan",
+        "employeeId": "1851-مروة الشعلان",
         "personnelNumber": "1851",
-        "name": "Marwa Alshalan",
+        "name": "مروة الشعلان",
         "startDate": "2025-12-08",
         "manager": "جهاد ايوبي",
         "showroom": "2101-DHAHRAN MALL",
@@ -6688,6 +6688,24 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "2001-C;2001-E"
+    },
+    {
+        "employeeId": "4910-أنجا تيناري",
+        "personnelNumber": "4910",
+        "name": "أنجا تيناري",
+        "startDate": "2026-03-12",
+        "manager": "عبد الجليل الحبال",
+        "showroom": "1103-RABWA MALL",
+        "showroomDetails": [
+            {
+                "name": "1103-RABWA MALL",
+                "codes": [
+                    "1103-C",
+                    "1103-E"
+                ]
+            }
+        ],
+        "addressBooks": "1103-C;1103-E"
     },
     {
         "employeeId": "4922-مونافير علي باليالتو",
