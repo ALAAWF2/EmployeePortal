@@ -58940,11 +58940,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0ODc4OTsxNTQ3NDEyMjEzLDU2MzcxNTQwNTY7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0ODc4OTsyMTIwMDg5ODU0LDU2MzcxNTQwNTY7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "3881",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1011-C;1011-E",
+            "AddressBooks": "1004-C;1004-E;1011-C;1011-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",

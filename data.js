@@ -2040,8 +2040,15 @@ const EMPLOYEES = [
         "name": "رنيم احمد السميري",
         "startDate": "2023-12-27",
         "manager": "شريفة العمري",
-        "showroom": "1011- AZIZ MALL",
+        "showroom": "1004-ARAB MALL و 1011- AZIZ MALL",
         "showroomDetails": [
+            {
+                "name": "1004-ARAB MALL",
+                "codes": [
+                    "1004-C",
+                    "1004-E"
+                ]
+            },
             {
                 "name": "1011- AZIZ MALL",
                 "codes": [
@@ -2050,7 +2057,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1011-C;1011-E"
+        "addressBooks": "1004-C;1004-E;1011-C;1011-E"
     },
     {
         "employeeId": "3890-عادل منور فاريا تودي",
