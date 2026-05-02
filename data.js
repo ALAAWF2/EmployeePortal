@@ -3175,24 +3175,6 @@ const EMPLOYEES = [
         "addressBooks": "1302-C;1302-E"
     },
     {
-        "employeeId": "4377-حنان الغامدي",
-        "personnelNumber": "4377",
-        "name": "حنان الغامدي",
-        "startDate": "2024-11-03",
-        "manager": "شريفة العمري",
-        "showroom": "1004-ARAB MALL",
-        "showroomDetails": [
-            {
-                "name": "1004-ARAB MALL",
-                "codes": [
-                    "1004-C",
-                    "1004-E"
-                ]
-            }
-        ],
-        "addressBooks": "1004-C;1004-E"
-    },
-    {
         "employeeId": "4379-سمية سالم",
         "personnelNumber": "4379",
         "name": "سمية سالم",

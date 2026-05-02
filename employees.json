@@ -117106,11 +117106,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0OTI0NzsyMDQyMTMzOTc1LDU2MzcxNTQ1MTQ7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0OTI0Nzs3ODgxMDYyMTUsNTYzNzE1NDUxNDswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
             "PersonnelNumber": "4377",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1004-C;1004-E",
+            "AddressBooks": "",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",
