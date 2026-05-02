@@ -121932,11 +121932,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0OTI4NTsyMjkzNDQyMzcsNTYzNzE1NDU1MjswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0OTI4NTsxNjA4MzM3MDAxLDU2MzcxNTQ1NTI7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "4418",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1012-C;1012-E",
+            "AddressBooks": "1007-C;1007-E;1012-C;1012-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",

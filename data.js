@@ -3367,8 +3367,15 @@ const EMPLOYEES = [
         "name": "مها قبلاوي",
         "startDate": "2024-12-02",
         "manager": "عبيدة السباعي",
-        "showroom": "1012-SAUQ7 CENTER",
+        "showroom": "1007-KHAYYAT CENTER و 1012-SAUQ7 CENTER",
         "showroomDetails": [
+            {
+                "name": "1007-KHAYYAT CENTER",
+                "codes": [
+                    "1007-C",
+                    "1007-E"
+                ]
+            },
             {
                 "name": "1012-SAUQ7 CENTER",
                 "codes": [
@@ -3377,7 +3384,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1012-C;1012-E"
+        "addressBooks": "1007-C;1007-E;1012-C;1012-E"
     },
     {
         "employeeId": "4420-اجمل",
