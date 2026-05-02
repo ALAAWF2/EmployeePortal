@@ -4112,8 +4112,15 @@ const EMPLOYEES = [
         "name": "نوال خضر",
         "startDate": "2025-06-17",
         "manager": "شريفة العمري",
-        "showroom": "1008-JEDDAH PARK MALL",
+        "showroom": "1004-ARAB MALL و 1008-JEDDAH PARK MALL",
         "showroomDetails": [
+            {
+                "name": "1004-ARAB MALL",
+                "codes": [
+                    "1004-C",
+                    "1004-E"
+                ]
+            },
             {
                 "name": "1008-JEDDAH PARK MALL",
                 "codes": [
@@ -4122,7 +4129,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1008-C;1008-E"
+        "addressBooks": "1004-C;1004-E;1008-C;1008-E"
     },
     {
         "employeeId": "4611-الهنوف سالم",
