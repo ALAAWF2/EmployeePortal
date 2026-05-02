@@ -4887,24 +4887,6 @@ const EMPLOYEES = [
         "addressBooks": "1012-C;1012-E"
     },
     {
-        "employeeId": "4768-فتون محبوب",
-        "personnelNumber": "4768",
-        "name": "فتون محبوب",
-        "startDate": "2025-11-15",
-        "manager": "شريفة العمري",
-        "showroom": "1011- AZIZ MALL",
-        "showroomDetails": [
-            {
-                "name": "1011- AZIZ MALL",
-                "codes": [
-                    "1011-C",
-                    "1011-E"
-                ]
-            }
-        ],
-        "addressBooks": "1011-C;1011-E"
-    },
-    {
         "employeeId": "4728-ارون بابو",
         "personnelNumber": "4728",
         "name": "ارون بابو",
