@@ -3799,7 +3799,7 @@ const EMPLOYEES = [
         "name": "بدريه الجهني",
         "startDate": "2025-04-12",
         "manager": "خليل الصانع",
-        "showroom": "1401-ALIA MALL",
+        "showroom": "1401-ALIA MALL و 1402-NOOR MALL",
         "showroomDetails": [
             {
                 "name": "1401-ALIA MALL",
@@ -3807,9 +3807,16 @@ const EMPLOYEES = [
                     "1401-C",
                     "1401-E"
                 ]
+            },
+            {
+                "name": "1402-NOOR MALL",
+                "codes": [
+                    "1402-C",
+                    "1402-E"
+                ]
             }
         ],
-        "addressBooks": "1401-C;1401-E"
+        "addressBooks": "1401-C;1401-E;1402-C;1402-E"
     },
     {
         "employeeId": "4557-رهف منصوري",
@@ -5968,31 +5975,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1113-C;1113-E"
-    },
-    {
-        "employeeId": "4868-ريماس الرحيلي",
-        "personnelNumber": "4868",
-        "name": "ريماس الرحيلي",
-        "startDate": "2026-02-10",
-        "manager": "خليل الصانع",
-        "showroom": "1401-ALIA MALL و 1402-NOOR MALL",
-        "showroomDetails": [
-            {
-                "name": "1401-ALIA MALL",
-                "codes": [
-                    "1401-C",
-                    "1401-E"
-                ]
-            },
-            {
-                "name": "1402-NOOR MALL",
-                "codes": [
-                    "1402-C",
-                    "1402-E"
-                ]
-            }
-        ],
-        "addressBooks": "1401-C;1401-E;1402-C;1402-E"
     },
     {
         "employeeId": "4869-مرام الحربي",
