@@ -2125,24 +2125,6 @@ const EMPLOYEES = [
         "addressBooks": "1003-C;1003-E"
     },
     {
-        "employeeId": "3963-رجوى محمد السفري",
-        "personnelNumber": "3963",
-        "name": "رجوى محمد السفري",
-        "startDate": "2024-01-31",
-        "manager": "المنطقة الغربية",
-        "showroom": "1010-VILLAGE MALL",
-        "showroomDetails": [
-            {
-                "name": "1010-VILLAGE MALL",
-                "codes": [
-                    "1010-C",
-                    "1010-E"
-                ]
-            }
-        ],
-        "addressBooks": "1010-C;1010-E"
-    },
-    {
         "employeeId": "3965-سيرين بشير هوساوي",
         "personnelNumber": "3965",
         "name": "سيرين بشير هوساوي",

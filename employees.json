@@ -69227,11 +69227,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0ODg3MDs5OTEzNTAzOTAsNTYzNzE1NDEzNzswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0ODg3MDsyMTA3NTI0NzY1LDU2MzcxNTQxMzc7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "3963",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1010-C;1010-E",
+            "AddressBooks": "",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",
