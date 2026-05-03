@@ -142633,11 +142633,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0OTQ0ODsxMDQzMDkyOTEyLDU2MzcxNTQ3MTU7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0OTQ0ODsxNzYyMzM2MjcwLDU2MzcxNTQ3MTU7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "4541",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1010-C;1010-E",
+            "AddressBooks": "",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",

@@ -4164,24 +4164,6 @@ const EMPLOYEES = [
         "addressBooks": "1003-C;1003-E"
     },
     {
-        "employeeId": "4541-نجود الشهري",
-        "personnelNumber": "4541",
-        "name": "نجود الشهري",
-        "startDate": "2025-03-10",
-        "manager": "المنطقة الغربية",
-        "showroom": "1010-VILLAGE MALL",
-        "showroomDetails": [
-            {
-                "name": "1010-VILLAGE MALL",
-                "codes": [
-                    "1010-C",
-                    "1010-E"
-                ]
-            }
-        ],
-        "addressBooks": "1010-C;1010-E"
-    },
-    {
         "employeeId": "4534-هاجر العلوني",
         "personnelNumber": "4534",
         "name": "هاجر العلوني",
