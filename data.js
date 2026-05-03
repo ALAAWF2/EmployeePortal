@@ -5689,24 +5689,6 @@ const EMPLOYEES = [
         "addressBooks": "1903-C;1903-E"
     },
     {
-        "employeeId": "4836-شهد الدوسري",
-        "personnelNumber": "4836",
-        "name": "شهد الدوسري",
-        "startDate": "2026-01-21",
-        "manager": "خليل الصانع",
-        "showroom": "1401-ALIA MALL",
-        "showroomDetails": [
-            {
-                "name": "1401-ALIA MALL",
-                "codes": [
-                    "1401-C",
-                    "1401-E"
-                ]
-            }
-        ],
-        "addressBooks": "1401-C;1401-E"
-    },
-    {
         "employeeId": "4839-منال طاهر",
         "personnelNumber": "4839",
         "name": "منال طاهر",
@@ -5777,24 +5759,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1906-C;1906-E"
-    },
-    {
-        "employeeId": "4857-العنود العوفي",
-        "personnelNumber": "4857",
-        "name": "العنود العوفي",
-        "startDate": "2026-02-07",
-        "manager": "خليل الصانع",
-        "showroom": "1401-ALIA MALL",
-        "showroomDetails": [
-            {
-                "name": "1401-ALIA MALL",
-                "codes": [
-                    "1401-C",
-                    "1401-E"
-                ]
-            }
-        ],
-        "addressBooks": "1401-C;1401-E"
     },
     {
         "employeeId": "4858-نوال الشمري",
