@@ -4840,24 +4840,6 @@ const EMPLOYEES = [
         "addressBooks": "1012-C;1012-E"
     },
     {
-        "employeeId": "4728-ارون بابو",
-        "personnelNumber": "4728",
-        "name": "ارون بابو",
-        "startDate": "2025-10-13",
-        "manager": "جهاد ايوبي",
-        "showroom": "1601-EHSA OTHAIM MALL",
-        "showroomDetails": [
-            {
-                "name": "1601-EHSA OTHAIM MALL",
-                "codes": [
-                    "1601-C",
-                    "1601-E"
-                ]
-            }
-        ],
-        "addressBooks": "1601-C;1601-E"
-    },
-    {
         "employeeId": "4752-خديجة مجش",
         "personnelNumber": "4752",
         "name": "خديجة مجش",
@@ -4892,24 +4874,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1101-C;1101-E"
-    },
-    {
-        "employeeId": "1851-مروة الشعلان",
-        "personnelNumber": "1851",
-        "name": "مروة الشعلان",
-        "startDate": "2025-12-08",
-        "manager": "جهاد ايوبي",
-        "showroom": "2101-DHAHRAN MALL",
-        "showroomDetails": [
-            {
-                "name": "2101-DHAHRAN MALL",
-                "codes": [
-                    "2101-C",
-                    "2101-E"
-                ]
-            }
-        ],
-        "addressBooks": "2101-C;2101-E"
     },
     {
         "employeeId": "4776-Athari Alqahtani",
@@ -6810,6 +6774,60 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1006-C;1006-E"
+    },
+    {
+        "employeeId": "4952-زاهي احمد",
+        "personnelNumber": "4952",
+        "name": "زاهي احمد",
+        "startDate": "2026-05-04",
+        "manager": "محمدكلو",
+        "showroom": "1114-Malgha Mall",
+        "showroomDetails": [
+            {
+                "name": "1114-Malgha Mall",
+                "codes": [
+                    "1114-C",
+                    "1114-E"
+                ]
+            }
+        ],
+        "addressBooks": "1114-C;1114-E"
+    },
+    {
+        "employeeId": "4953-غلا الغامدي",
+        "personnelNumber": "4953",
+        "name": "غلا الغامدي",
+        "startDate": "2026-05-04",
+        "manager": "عبيدة السباعي",
+        "showroom": "1009-BASATEEN MALL",
+        "showroomDetails": [
+            {
+                "name": "1009-BASATEEN MALL",
+                "codes": [
+                    "1009-C",
+                    "1009-E"
+                ]
+            }
+        ],
+        "addressBooks": "1009-C;1009-E"
+    },
+    {
+        "employeeId": "4954-رولا ابراهيم المعبدي",
+        "personnelNumber": "4954",
+        "name": "رولا ابراهيم المعبدي",
+        "startDate": "2026-05-04",
+        "manager": "شريفة العمري",
+        "showroom": "1004-ARAB MALL",
+        "showroomDetails": [
+            {
+                "name": "1004-ARAB MALL",
+                "codes": [
+                    "1004-C",
+                    "1004-E"
+                ]
+            }
+        ],
+        "addressBooks": "1004-C;1004-E"
     }
 ];
 
