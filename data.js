@@ -5171,24 +5171,6 @@ const EMPLOYEES = [
         "addressBooks": "2001-C;2001-E"
     },
     {
-        "employeeId": "4794-Sara Alghanam",
-        "personnelNumber": "4794",
-        "name": "Sara Alghanam",
-        "startDate": "2025-12-21",
-        "manager": "محمدكلو",
-        "showroom": "1106-ATYAF MALL",
-        "showroomDetails": [
-            {
-                "name": "1106-ATYAF MALL",
-                "codes": [
-                    "1106-C",
-                    "1106-E"
-                ]
-            }
-        ],
-        "addressBooks": "1106-C;1106-E"
-    },
-    {
         "employeeId": "4795-Shog Alyobe",
         "personnelNumber": "4795",
         "name": "Shog Alyobe",
@@ -5993,24 +5975,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "2401-C;2401-E"
-    },
-    {
-        "employeeId": "4878-تهاني الفقيه",
-        "personnelNumber": "4878",
-        "name": "تهاني الفقيه",
-        "startDate": "2026-02-14",
-        "manager": "محمدكلو",
-        "showroom": "1113-PARK AVENUE MALL",
-        "showroomDetails": [
-            {
-                "name": "1113-PARK AVENUE MALL",
-                "codes": [
-                    "1113-C",
-                    "1113-E"
-                ]
-            }
-        ],
-        "addressBooks": "1113-C;1113-E"
     },
     {
         "employeeId": "4879-سعيدة الفهمي",
