@@ -4164,24 +4164,6 @@ const EMPLOYEES = [
         "addressBooks": "1901-C;1901-E"
     },
     {
-        "employeeId": "4498-Sarah Mershed AlKham",
-        "personnelNumber": "4498",
-        "name": "Sarah Mershed AlKham",
-        "startDate": "2025-02-11",
-        "manager": "عبدالله السرداح",
-        "showroom": "2401-NAKHEEL PLAZA MALL",
-        "showroomDetails": [
-            {
-                "name": "2401-NAKHEEL PLAZA MALL",
-                "codes": [
-                    "2401-C",
-                    "2401-E"
-                ]
-            }
-        ],
-        "addressBooks": "2401-C;2401-E"
-    },
-    {
         "employeeId": "4483-نجوم العامري",
         "personnelNumber": "4483",
         "name": "نجوم العامري",
