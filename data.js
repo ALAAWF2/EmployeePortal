@@ -1450,17 +1450,17 @@ const EMPLOYEES = [
         "name": "محمد فيفاز",
         "startDate": "2022-10-22",
         "manager": "عبدالله السرداح",
-        "showroom": "1109-HAYAT MALL",
+        "showroom": "1105-TALA MALL",
         "showroomDetails": [
             {
-                "name": "1109-HAYAT MALL",
+                "name": "1105-TALA MALL",
                 "codes": [
-                    "1109-C",
-                    "1109-E"
+                    "1105-C",
+                    "1105-E"
                 ]
             }
         ],
-        "addressBooks": "1109-C;1109-E"
+        "addressBooks": "1105-C;1105-E"
     },
     {
         "employeeId": "3345-ثاجودين باثنقادي",
@@ -2141,24 +2141,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1401-C;1401-E"
-    },
-    {
-        "employeeId": "3986-نوره حمدان البلوي",
-        "personnelNumber": "3986",
-        "name": "نوره حمدان البلوي",
-        "startDate": "2024-02-07",
-        "manager": "خليل الصانع",
-        "showroom": "2001-TAPUK PARK MALL",
-        "showroomDetails": [
-            {
-                "name": "2001-TAPUK PARK MALL",
-                "codes": [
-                    "2001-C",
-                    "2001-E"
-                ]
-            }
-        ],
-        "addressBooks": "2001-C;2001-E"
     },
     {
         "employeeId": "4016-شروق علي الشهري",
@@ -6762,6 +6744,60 @@ const EMPLOYEES = [
         "personnelNumber": "4948",
         "name": "ليان تركي",
         "startDate": "2026-04-25",
+        "manager": "المنطقة الغربية",
+        "showroom": "1006-YASMIN MALL",
+        "showroomDetails": [
+            {
+                "name": "1006-YASMIN MALL",
+                "codes": [
+                    "1006-C",
+                    "1006-E"
+                ]
+            }
+        ],
+        "addressBooks": "1006-C;1006-E"
+    },
+    {
+        "employeeId": "4949-ليالي القحطاني",
+        "personnelNumber": "4949",
+        "name": "ليالي القحطاني",
+        "startDate": "2026-05-03",
+        "manager": "محمدكلو",
+        "showroom": "1106-ATYAF MALL",
+        "showroomDetails": [
+            {
+                "name": "1106-ATYAF MALL",
+                "codes": [
+                    "1106-C",
+                    "1106-E"
+                ]
+            }
+        ],
+        "addressBooks": "1106-C;1106-E"
+    },
+    {
+        "employeeId": "4950-رهف المالكي",
+        "personnelNumber": "4950",
+        "name": "رهف المالكي",
+        "startDate": "2026-05-03",
+        "manager": "شريفة العمري",
+        "showroom": "1004-ARAB MALL",
+        "showroomDetails": [
+            {
+                "name": "1004-ARAB MALL",
+                "codes": [
+                    "1004-C",
+                    "1004-E"
+                ]
+            }
+        ],
+        "addressBooks": "1004-C;1004-E"
+    },
+    {
+        "employeeId": "4951-بشاير الزهراني",
+        "personnelNumber": "4951",
+        "name": "بشاير الزهراني",
+        "startDate": "2026-05-03",
         "manager": "المنطقة الغربية",
         "showroom": "1006-YASMIN MALL",
         "showroomDetails": [
