@@ -155714,11 +155714,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE1OTU4NTs2NjA5NzE1MDgsNTYzNzE3Mzg0NjswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE1OTU4NTsyMzc3ODMxMzcsNTYzNzE3Mzg0NjswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
             "PersonnelNumber": "4734",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1105-C;1105-E;1109-C;1109-E",
+            "AddressBooks": "1105-C;1105-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",
