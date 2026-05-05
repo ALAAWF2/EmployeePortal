@@ -3042,24 +3042,6 @@ const EMPLOYEES = [
         "addressBooks": "1302-C;1302-E"
     },
     {
-        "employeeId": "4345-امجاد عبدالعزيز",
-        "personnelNumber": "4345",
-        "name": "امجاد عبدالعزيز",
-        "startDate": "2024-09-17",
-        "manager": "محمدكلو",
-        "showroom": "1104-NAKHEEL MALL",
-        "showroomDetails": [
-            {
-                "name": "1104-NAKHEEL MALL",
-                "codes": [
-                    "1104-C",
-                    "1104-E"
-                ]
-            }
-        ],
-        "addressBooks": "1104-C;1104-E"
-    },
-    {
         "employeeId": "4349-فوز القرني",
         "personnelNumber": "4349",
         "name": "فوز القرني",
@@ -3853,24 +3835,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "2001-C;2001-E"
-    },
-    {
-        "employeeId": "4565-Mashael Fahad AlAmri",
-        "personnelNumber": "4565",
-        "name": "Mashael Fahad AlAmri",
-        "startDate": "2025-04-22",
-        "manager": "محمدكلو",
-        "showroom": "1104-NAKHEEL MALL",
-        "showroomDetails": [
-            {
-                "name": "1104-NAKHEEL MALL",
-                "codes": [
-                    "1104-C",
-                    "1104-E"
-                ]
-            }
-        ],
-        "addressBooks": "1104-C;1104-E"
     },
     {
         "employeeId": "4567-هناء عبدالله",
