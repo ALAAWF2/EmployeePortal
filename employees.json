@@ -35445,11 +35445,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0ODYwNDsyMzY3MjgxOTgsNTYzNzE1Mzg3MTswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0ODYwNDsxNjA5OTEwODcwLDU2MzcxNTM4NzE7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "3537",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1801-C;1801-E",
+            "AddressBooks": "2401-C;2401-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",
