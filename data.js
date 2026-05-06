@@ -896,17 +896,17 @@ const EMPLOYEES = [
         "name": "نافاز باثاري",
         "startDate": "2021-08-19",
         "manager": "عبدالله السرداح",
-        "showroom": "2401-NAKHEEL PLAZA MALL",
+        "showroom": "1801-HAIL OTHAIM MALL",
         "showroomDetails": [
             {
-                "name": "2401-NAKHEEL PLAZA MALL",
+                "name": "1801-HAIL OTHAIM MALL",
                 "codes": [
-                    "2401-C",
-                    "2401-E"
+                    "1801-C",
+                    "1801-E"
                 ]
             }
         ],
-        "addressBooks": "2401-C;2401-E"
+        "addressBooks": "1801-C;1801-E"
     },
     {
         "employeeId": "1596-نهى سعيد ال ناصر",

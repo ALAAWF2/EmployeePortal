@@ -15506,11 +15506,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0ODQ0NzsxNTIyODIxMzA4LDU2MzcxNTM3MTQ7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0ODQ0Nzs1NjAwMDQwMzMsNTYzNzE1MzcxNDswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
             "PersonnelNumber": "1593",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "2401-C;2401-E",
+            "AddressBooks": "1801-C;1801-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",
