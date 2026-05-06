@@ -1396,17 +1396,17 @@ const EMPLOYEES = [
         "name": "منهاج الونجال",
         "startDate": "2022-10-21",
         "manager": "عبدالله السرداح",
-        "showroom": "1801-HAIL OTHAIM MALL",
+        "showroom": "2401-NAKHEEL PLAZA MALL",
         "showroomDetails": [
             {
-                "name": "1801-HAIL OTHAIM MALL",
+                "name": "2401-NAKHEEL PLAZA MALL",
                 "codes": [
-                    "1801-C",
-                    "1801-E"
+                    "2401-C",
+                    "2401-E"
                 ]
             }
         ],
-        "addressBooks": "1801-C;1801-E"
+        "addressBooks": "2401-C;2401-E"
     },
     {
         "employeeId": "3338-ريشاد",
