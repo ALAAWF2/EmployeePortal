@@ -44970,11 +44970,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE0ODY3OTsxMjA0NzA2NDAsNTYzNzE1Mzk0NjswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE0ODY3OTsxMDMxMjEzMjE5LDU2MzcxNTM5NDY7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "3729",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "2401-C;2401-E",
+            "AddressBooks": "1801-C;1801-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",
