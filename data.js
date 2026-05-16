@@ -160,7 +160,7 @@ const EMPLOYEES = [
         "name": "سليم شمس الدين",
         "startDate": "2015-09-30",
         "manager": "عبيدة السباعي",
-        "showroom": "1001-ANDALOS MALL و 1007-KHAYYAT CENTER و 1009-BASATEEN MALL و 1012-SAUQ7 CENTER",
+        "showroom": "1001-ANDALOS MALL و 1007-KHAYYAT CENTER و 1012-SAUQ7 CENTER",
         "showroomDetails": [
             {
                 "name": "1001-ANDALOS MALL",
@@ -177,13 +177,6 @@ const EMPLOYEES = [
                 ]
             },
             {
-                "name": "1009-BASATEEN MALL",
-                "codes": [
-                    "1009-C",
-                    "1009-E"
-                ]
-            },
-            {
                 "name": "1012-SAUQ7 CENTER",
                 "codes": [
                     "1012-C",
@@ -191,7 +184,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1001-C;1001-E;1007-C;1007-E;1009-C;1009-E;1012-C;1012-E"
+        "addressBooks": "1001-C;1001-E;1007-C;1007-E;1012-C;1012-E"
     },
     {
         "employeeId": "0090-عبد الناظر اون يابا",
@@ -217,13 +210,20 @@ const EMPLOYEES = [
         "name": "محمود محمد خير محجوب",
         "startDate": "2017-02-14",
         "manager": "رضوان عطيوي",
-        "showroom": "1203- JABL OMAR MALL و 1402-NOOR MALL",
+        "showroom": "1203- JABL OMAR MALL و 1401-ALIA MALL و 1402-NOOR MALL",
         "showroomDetails": [
             {
                 "name": "1203- JABL OMAR MALL",
                 "codes": [
                     "1203-C",
                     "1203-E"
+                ]
+            },
+            {
+                "name": "1401-ALIA MALL",
+                "codes": [
+                    "1401-C",
+                    "1401-E"
                 ]
             },
             {
@@ -234,7 +234,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1203-C;1203-E;1402-C;1402-E"
+        "addressBooks": "1203-C;1203-E;1401-C;1401-E;1402-C;1402-E"
     },
     {
         "employeeId": "0198-معتصم اسماعيل العامر",
@@ -2419,7 +2419,7 @@ const EMPLOYEES = [
         "employeeId": "4147-ياسر غنايم الحربي",
         "personnelNumber": "4147",
         "name": "ياسر غنايم الحربي",
-        "startDate": "2024-05-13",
+        "startDate": "2024-05-14",
         "manager": "رضوان عطيوي",
         "showroom": "1203- JABL OMAR MALL",
         "showroomDetails": [
@@ -3473,7 +3473,7 @@ const EMPLOYEES = [
         "employeeId": "4468-مروج محمد",
         "personnelNumber": "4468",
         "name": "مروج محمد",
-        "startDate": "2025-02-01",
+        "startDate": "2025-02-02",
         "manager": "رضوان عطيوي",
         "showroom": "1201-MAKKAH MALL",
         "showroomDetails": [
@@ -3865,7 +3865,7 @@ const EMPLOYEES = [
         "employeeId": "4585-بشاير الحميدي",
         "personnelNumber": "4585",
         "name": "بشاير الحميدي",
-        "startDate": "2025-05-13",
+        "startDate": "2025-05-14",
         "manager": "عبد الجليل الحبال",
         "showroom": "1102-OTHAIM MALL",
         "showroomDetails": [
@@ -6558,8 +6558,15 @@ const EMPLOYEES = [
         "name": "منال هلال",
         "startDate": "2026-04-21",
         "manager": "عبدالله السرداح",
-        "showroom": "1109-HAYAT MALL",
+        "showroom": "1105-TALA MALL و 1109-HAYAT MALL",
         "showroomDetails": [
+            {
+                "name": "1105-TALA MALL",
+                "codes": [
+                    "1105-C",
+                    "1105-E"
+                ]
+            },
             {
                 "name": "1109-HAYAT MALL",
                 "codes": [
@@ -6568,7 +6575,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1109-C;1109-E"
+        "addressBooks": "1105-C;1105-E;1109-C;1109-E"
     },
     {
         "employeeId": "4943-منى العمري",
@@ -6701,9 +6708,16 @@ const EMPLOYEES = [
         "personnelNumber": "4953",
         "name": "غلا الغامدي",
         "startDate": "2026-05-04",
-        "manager": "عبيدة السباعي",
-        "showroom": "1009-BASATEEN MALL",
+        "manager": "شريفة العمري",
+        "showroom": "1004-ARAB MALL و 1009-BASATEEN MALL",
         "showroomDetails": [
+            {
+                "name": "1004-ARAB MALL",
+                "codes": [
+                    "1004-C",
+                    "1004-E"
+                ]
+            },
             {
                 "name": "1009-BASATEEN MALL",
                 "codes": [
@@ -6712,7 +6726,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1009-C;1009-E"
+        "addressBooks": "1004-C;1004-E;1009-C;1009-E"
     },
     {
         "employeeId": "4954-رولا ابراهيم المعبدي",
@@ -6731,6 +6745,132 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1004-C;1004-E"
+    },
+    {
+        "employeeId": "4955-علياء الزهراني",
+        "personnelNumber": "4955",
+        "name": "علياء الزهراني",
+        "startDate": "2026-05-10",
+        "manager": "شريفة العمري",
+        "showroom": "1004-ARAB MALL",
+        "showroomDetails": [
+            {
+                "name": "1004-ARAB MALL",
+                "codes": [
+                    "1004-C",
+                    "1004-E"
+                ]
+            }
+        ],
+        "addressBooks": "1004-C;1004-E"
+    },
+    {
+        "employeeId": "4956-الهنوف معلا",
+        "personnelNumber": "4956",
+        "name": "الهنوف معلا",
+        "startDate": "2026-05-11",
+        "manager": "خليل الصانع",
+        "showroom": "1401-ALIA MALL",
+        "showroomDetails": [
+            {
+                "name": "1401-ALIA MALL",
+                "codes": [
+                    "1401-C",
+                    "1401-E"
+                ]
+            }
+        ],
+        "addressBooks": "1401-C;1401-E"
+    },
+    {
+        "employeeId": "4957-افراح الرويثي",
+        "personnelNumber": "4957",
+        "name": "افراح الرويثي",
+        "startDate": "2026-05-11",
+        "manager": "خليل الصانع",
+        "showroom": "1401-ALIA MALL",
+        "showroomDetails": [
+            {
+                "name": "1401-ALIA MALL",
+                "codes": [
+                    "1401-C",
+                    "1401-E"
+                ]
+            }
+        ],
+        "addressBooks": "1401-C;1401-E"
+    },
+    {
+        "employeeId": "4959-ليان الشهري",
+        "personnelNumber": "4959",
+        "name": "ليان الشهري",
+        "startDate": "2026-05-13",
+        "manager": "محمدكلو",
+        "showroom": "1111-KHALEEJ MALL",
+        "showroomDetails": [
+            {
+                "name": "1111-KHALEEJ MALL",
+                "codes": [
+                    "1111-C",
+                    "1111-E"
+                ]
+            }
+        ],
+        "addressBooks": "1111-C;1111-E"
+    },
+    {
+        "employeeId": "4960-ريما عبدالله",
+        "personnelNumber": "4960",
+        "name": "ريما عبدالله",
+        "startDate": "2026-05-13",
+        "manager": "عبدالله السرداح",
+        "showroom": "1109-HAYAT MALL",
+        "showroomDetails": [
+            {
+                "name": "1109-HAYAT MALL",
+                "codes": [
+                    "1109-C",
+                    "1109-E"
+                ]
+            }
+        ],
+        "addressBooks": "1109-C;1109-E"
+    },
+    {
+        "employeeId": "4961-رغد طارق",
+        "personnelNumber": "4961",
+        "name": "رغد طارق",
+        "startDate": "2026-05-13",
+        "manager": "خليل الصانع",
+        "showroom": "1401-ALIA MALL",
+        "showroomDetails": [
+            {
+                "name": "1401-ALIA MALL",
+                "codes": [
+                    "1401-C",
+                    "1401-E"
+                ]
+            }
+        ],
+        "addressBooks": "1401-C;1401-E"
+    },
+    {
+        "employeeId": "4962-مروة الحربي",
+        "personnelNumber": "4962",
+        "name": "مروة الحربي",
+        "startDate": "2026-05-13",
+        "manager": "خليل الصانع",
+        "showroom": "1401-ALIA MALL",
+        "showroomDetails": [
+            {
+                "name": "1401-ALIA MALL",
+                "codes": [
+                    "1401-C",
+                    "1401-E"
+                ]
+            }
+        ],
+        "addressBooks": "1401-C;1401-E"
     }
 ];
 
