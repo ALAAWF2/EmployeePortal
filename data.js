@@ -6540,17 +6540,17 @@ const EMPLOYEES = [
         "name": "منال هلال",
         "startDate": "2026-04-21",
         "manager": "عبدالله السرداح",
-        "showroom": "1105-TALA MALL",
+        "showroom": "1109-HAYAT MALL",
         "showroomDetails": [
             {
-                "name": "1105-TALA MALL",
+                "name": "1109-HAYAT MALL",
                 "codes": [
-                    "1105-C",
-                    "1105-E"
+                    "1109-C",
+                    "1109-E"
                 ]
             }
         ],
-        "addressBooks": "1105-C;1105-E"
+        "addressBooks": "1109-C;1109-E"
     },
     {
         "employeeId": "4943-منى العمري",
