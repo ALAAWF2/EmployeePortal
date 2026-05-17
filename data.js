@@ -894,7 +894,7 @@ const EMPLOYEES = [
         "employeeId": "1593-نافاز باثاري",
         "personnelNumber": "1593",
         "name": "نافاز باثاري",
-        "startDate": "2021-08-19",
+        "startDate": "2021-08-20",
         "manager": "عبدالله السرداح",
         "showroom": "1801-HAIL OTHAIM MALL",
         "showroomDetails": [
@@ -2401,7 +2401,7 @@ const EMPLOYEES = [
         "employeeId": "4145-صالحه سعود القرشي",
         "personnelNumber": "4145",
         "name": "صالحه سعود القرشي",
-        "startDate": "2024-05-13",
+        "startDate": "2024-05-14",
         "manager": "رضوان عطيوي",
         "showroom": "1201-MAKKAH MALL",
         "showroomDetails": [
@@ -2455,7 +2455,7 @@ const EMPLOYEES = [
         "employeeId": "4149-شمسير علي",
         "personnelNumber": "4149",
         "name": "شمسير علي",
-        "startDate": "2024-05-14",
+        "startDate": "2024-05-15",
         "manager": "المنطقة الغربية",
         "showroom": "1010-VILLAGE MALL",
         "showroomDetails": [
@@ -5919,7 +5919,7 @@ const EMPLOYEES = [
         "employeeId": "4876-وجدان العميري",
         "personnelNumber": "4876",
         "name": "وجدان العميري",
-        "startDate": "2026-02-14",
+        "startDate": "2026-02-15",
         "manager": "عبد الجليل الحبال",
         "showroom": "1108-SALAM MALL",
         "showroomDetails": [
@@ -6173,24 +6173,6 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1801-C;1801-E"
-    },
-    {
-        "employeeId": "4887-مروة جمعه",
-        "personnelNumber": "4887",
-        "name": "مروة جمعه",
-        "startDate": "2026-03-01",
-        "manager": "جهاد ايوبي",
-        "showroom": "1601-EHSA OTHAIM MALL",
-        "showroomDetails": [
-            {
-                "name": "1601-EHSA OTHAIM MALL",
-                "codes": [
-                    "1601-C",
-                    "1601-E"
-                ]
-            }
-        ],
-        "addressBooks": "1601-C;1601-E"
     },
     {
         "employeeId": "4893-شميم مانغاتو بارامبا",
