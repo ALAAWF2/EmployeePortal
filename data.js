@@ -364,13 +364,20 @@ const EMPLOYEES = [
         "name": "عاصم عبد الودود البا",
         "startDate": "2018-01-25",
         "manager": "رضوان عطيوي",
-        "showroom": "1201-MAKKAH MALL و 1203- JABL OMAR MALL",
+        "showroom": "1201-MAKKAH MALL و 1202-SITTEN CENTER و 1203- JABL OMAR MALL",
         "showroomDetails": [
             {
                 "name": "1201-MAKKAH MALL",
                 "codes": [
                     "1201-C",
                     "1201-E"
+                ]
+            },
+            {
+                "name": "1202-SITTEN CENTER",
+                "codes": [
+                    "1202-C",
+                    "1202-E"
                 ]
             },
             {
@@ -381,7 +388,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1201-C;1201-E;1203-C;1203-E"
+        "addressBooks": "1201-C;1201-E;1202-C;1202-E;1203-C;1203-E"
     },
     {
         "employeeId": "0488-نزار فيسيار",
@@ -1986,8 +1993,15 @@ const EMPLOYEES = [
         "name": "فاطمة إبراهيم الكياد",
         "startDate": "2023-09-30",
         "manager": "شريفة العمري",
-        "showroom": "1008-JEDDAH PARK MALL",
+        "showroom": "1002-HAIFA MALL و 1008-JEDDAH PARK MALL",
         "showroomDetails": [
+            {
+                "name": "1002-HAIFA MALL",
+                "codes": [
+                    "1002-C",
+                    "1002-E"
+                ]
+            },
             {
                 "name": "1008-JEDDAH PARK MALL",
                 "codes": [
@@ -1996,7 +2010,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1008-C;1008-E"
+        "addressBooks": "1002-C;1002-E;1008-C;1008-E"
     },
     {
         "employeeId": "3780-شيخة لافي الرشيدي",
@@ -2038,9 +2052,9 @@ const EMPLOYEES = [
         "employeeId": "3881-رنيم احمد السميري",
         "personnelNumber": "3881",
         "name": "رنيم احمد السميري",
-        "startDate": "2023-12-27",
+        "startDate": "2023-12-28",
         "manager": "شريفة العمري",
-        "showroom": "1004-ARAB MALL",
+        "showroom": "1004-ARAB MALL و 1011- AZIZ MALL",
         "showroomDetails": [
             {
                 "name": "1004-ARAB MALL",
@@ -2048,9 +2062,16 @@ const EMPLOYEES = [
                     "1004-C",
                     "1004-E"
                 ]
+            },
+            {
+                "name": "1011- AZIZ MALL",
+                "codes": [
+                    "1011-C",
+                    "1011-E"
+                ]
             }
         ],
-        "addressBooks": "1004-C;1004-E"
+        "addressBooks": "1004-C;1004-E;1011-C;1011-E"
     },
     {
         "employeeId": "3890-عادل منور فاريا تودي",
@@ -2865,19 +2886,19 @@ const EMPLOYEES = [
         "employeeId": "4285-ميعاد جابر الريثى",
         "personnelNumber": "4285",
         "name": "ميعاد جابر الريثى",
-        "startDate": "2024-07-31",
+        "startDate": "2024-08-01",
         "manager": "اماني عسيري",
-        "showroom": "1903-MUJAN PARK MALL",
+        "showroom": "1901-RASHID MALL",
         "showroomDetails": [
             {
-                "name": "1903-MUJAN PARK MALL",
+                "name": "1901-RASHID MALL",
                 "codes": [
-                    "1903-C",
-                    "1903-E"
+                    "1901-C",
+                    "1901-E"
                 ]
             }
         ],
-        "addressBooks": "1903-C;1903-E"
+        "addressBooks": "1901-C;1901-E"
     },
     {
         "employeeId": "4306-اماني احمد عسيري",
@@ -4748,7 +4769,7 @@ const EMPLOYEES = [
         "name": "مهند محمد ال مرعي",
         "startDate": "2025-10-15",
         "manager": "عبدالله السرداح",
-        "showroom": "1105-TALA MALL",
+        "showroom": "1105-TALA MALL و 1108-SALAM MALL",
         "showroomDetails": [
             {
                 "name": "1105-TALA MALL",
@@ -4756,9 +4777,16 @@ const EMPLOYEES = [
                     "1105-C",
                     "1105-E"
                 ]
+            },
+            {
+                "name": "1108-SALAM MALL",
+                "codes": [
+                    "1108-C",
+                    "1108-E"
+                ]
             }
         ],
-        "addressBooks": "1105-C;1105-E"
+        "addressBooks": "1105-C;1105-E;1108-C;1108-E"
     },
     {
         "employeeId": "4718-محمود اسماعيل الرفاع",
@@ -4777,6 +4805,24 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1012-C;1012-E"
+    },
+    {
+        "employeeId": "4728-ارون بابو",
+        "personnelNumber": "4728",
+        "name": "ارون بابو",
+        "startDate": "2025-10-13",
+        "manager": "جهاد ايوبي",
+        "showroom": "1601-EHSA OTHAIM MALL",
+        "showroomDetails": [
+            {
+                "name": "1601-EHSA OTHAIM MALL",
+                "codes": [
+                    "1601-C",
+                    "1601-E"
+                ]
+            }
+        ],
+        "addressBooks": "1601-C;1601-E"
     },
     {
         "employeeId": "4752-خديجة مجش",
@@ -6193,6 +6239,24 @@ const EMPLOYEES = [
         "addressBooks": "1202-C;1202-E"
     },
     {
+        "employeeId": "4895-تاريك عباس",
+        "personnelNumber": "4895",
+        "name": "تاريك عباس",
+        "startDate": "2026-02-26",
+        "manager": "شريفة العمري",
+        "showroom": "1002-HAIFA MALL",
+        "showroomDetails": [
+            {
+                "name": "1002-HAIFA MALL",
+                "codes": [
+                    "1002-C",
+                    "1002-E"
+                ]
+            }
+        ],
+        "addressBooks": "1002-C;1002-E"
+    },
+    {
         "employeeId": "4926-محمد رشيق تيناكاتو ك",
         "personnelNumber": "4926",
         "name": "محمد رشيق تيناكاتو ك",
@@ -6358,7 +6422,7 @@ const EMPLOYEES = [
         "employeeId": "4935-حمدي حمود",
         "personnelNumber": "4935",
         "name": "حمدي حمود",
-        "startDate": "2026-04-09",
+        "startDate": "2026-05-09",
         "manager": "محمدكلو",
         "showroom": "1115-Alrabie Mall",
         "showroomDetails": [
@@ -6779,7 +6843,7 @@ const EMPLOYEES = [
         "employeeId": "4959-ليان الشهري",
         "personnelNumber": "4959",
         "name": "ليان الشهري",
-        "startDate": "2026-05-13",
+        "startDate": "2026-05-14",
         "manager": "محمدكلو",
         "showroom": "1111-KHALEEJ MALL",
         "showroomDetails": [
@@ -6797,7 +6861,7 @@ const EMPLOYEES = [
         "employeeId": "4960-ريما عبدالله",
         "personnelNumber": "4960",
         "name": "ريما عبدالله",
-        "startDate": "2026-05-13",
+        "startDate": "2026-05-14",
         "manager": "عبدالله السرداح",
         "showroom": "1109-HAYAT MALL",
         "showroomDetails": [
@@ -6815,7 +6879,7 @@ const EMPLOYEES = [
         "employeeId": "4961-رغد طارق",
         "personnelNumber": "4961",
         "name": "رغد طارق",
-        "startDate": "2026-05-13",
+        "startDate": "2026-05-14",
         "manager": "خليل الصانع",
         "showroom": "1401-ALIA MALL",
         "showroomDetails": [
@@ -6833,7 +6897,7 @@ const EMPLOYEES = [
         "employeeId": "4962-مروة الحربي",
         "personnelNumber": "4962",
         "name": "مروة الحربي",
-        "startDate": "2026-05-13",
+        "startDate": "2026-05-14",
         "manager": "خليل الصانع",
         "showroom": "1401-ALIA MALL",
         "showroomDetails": [
@@ -6846,6 +6910,60 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1401-C;1401-E"
+    },
+    {
+        "employeeId": "4963-شيماء سليمان",
+        "personnelNumber": "4963",
+        "name": "شيماء سليمان",
+        "startDate": "2026-05-18",
+        "manager": "خليل الصانع",
+        "showroom": "1401-ALIA MALL",
+        "showroomDetails": [
+            {
+                "name": "1401-ALIA MALL",
+                "codes": [
+                    "1401-C",
+                    "1401-E"
+                ]
+            }
+        ],
+        "addressBooks": "1401-C;1401-E"
+    },
+    {
+        "employeeId": "4964-عائشة الشهري",
+        "personnelNumber": "4964",
+        "name": "عائشة الشهري",
+        "startDate": "2026-05-19",
+        "manager": "اماني عسيري",
+        "showroom": "1901-RASHID MALL",
+        "showroomDetails": [
+            {
+                "name": "1901-RASHID MALL",
+                "codes": [
+                    "1901-C",
+                    "1901-E"
+                ]
+            }
+        ],
+        "addressBooks": "1901-C;1901-E"
+    },
+    {
+        "employeeId": "4965-اسيل زايد",
+        "personnelNumber": "4965",
+        "name": "اسيل زايد",
+        "startDate": "2026-05-19",
+        "manager": "اماني عسيري",
+        "showroom": "1901-RASHID MALL",
+        "showroomDetails": [
+            {
+                "name": "1901-RASHID MALL",
+                "codes": [
+                    "1901-C",
+                    "1901-E"
+                ]
+            }
+        ],
+        "addressBooks": "1901-C;1901-E"
     }
 ];
 
