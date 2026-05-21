@@ -170192,11 +170192,11 @@
         "CalendarId": "",
         "CalendarLegalEntityId": "ORNG",
         "Worker": {
-            "@odata.etag": "W/\"JzEsNTYzNzE2NjM2MTs0MDg2NDMzNjUsNTYzNzE4ODM1NTswLDA7MCwwOzAsMDswLDA7MCwwJw==\"",
+            "@odata.etag": "W/\"JzEsNTYzNzE2NjM2MTsxMTE0MTQ4MDc1LDU2MzcxODgzNTU7MCwwOzAsMDswLDA7MCwwOzAsMCc=\"",
             "PersonnelNumber": "4761",
             "OfficeLocationId": "",
             "AddressState": "",
-            "AddressBooks": "1903-C;1903-E;1906-C;1906-E",
+            "AddressBooks": "1906-C;1906-E",
             "AddressCity": "",
             "ProfessionalSuffix": "",
             "OriginalHireDateTime": "1900-01-01T00:00:00Z",

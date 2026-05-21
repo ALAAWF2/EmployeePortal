@@ -5082,15 +5082,8 @@ const EMPLOYEES = [
         "name": "اريام الاسمري",
         "startDate": "2025-12-15",
         "manager": "اماني عسيري",
-        "showroom": "1903-MUJAN PARK MALL و 1906-LAVANDA PARK",
+        "showroom": "1906-LAVANDA PARK",
         "showroomDetails": [
-            {
-                "name": "1903-MUJAN PARK MALL",
-                "codes": [
-                    "1903-C",
-                    "1903-E"
-                ]
-            },
             {
                 "name": "1906-LAVANDA PARK",
                 "codes": [
@@ -5099,7 +5092,7 @@ const EMPLOYEES = [
                 ]
             }
         ],
-        "addressBooks": "1903-C;1903-E;1906-C;1906-E"
+        "addressBooks": "1906-C;1906-E"
     },
     {
         "employeeId": "4785-Areej Alaklbi",
