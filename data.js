@@ -4172,17 +4172,17 @@ const EMPLOYEES = [
         "name": "ضي عبدالله",
         "startDate": "2025-03-08",
         "manager": "اماني عسيري",
-        "showroom": "1901-RASHID MALL",
+        "showroom": "1903-MUJAN PARK MALL",
         "showroomDetails": [
             {
-                "name": "1901-RASHID MALL",
+                "name": "1903-MUJAN PARK MALL",
                 "codes": [
-                    "1901-C",
-                    "1901-E"
+                    "1903-C",
+                    "1903-E"
                 ]
             }
         ],
-        "addressBooks": "1901-C;1901-E"
+        "addressBooks": "1903-C;1903-E"
     },
     {
         "employeeId": "4483-نجوم العامري",
@@ -6964,6 +6964,42 @@ const EMPLOYEES = [
             }
         ],
         "addressBooks": "1901-C;1901-E"
+    },
+    {
+        "employeeId": "4966-سلمى الحربي",
+        "personnelNumber": "4966",
+        "name": "سلمى الحربي",
+        "startDate": "2026-05-19",
+        "manager": "خليل الصانع",
+        "showroom": "1401-ALIA MALL",
+        "showroomDetails": [
+            {
+                "name": "1401-ALIA MALL",
+                "codes": [
+                    "1401-C",
+                    "1401-E"
+                ]
+            }
+        ],
+        "addressBooks": "1401-C;1401-E"
+    },
+    {
+        "employeeId": "4967-رويدا الحربي",
+        "personnelNumber": "4967",
+        "name": "رويدا الحربي",
+        "startDate": "2026-05-19",
+        "manager": "خليل الصانع",
+        "showroom": "1401-ALIA MALL",
+        "showroomDetails": [
+            {
+                "name": "1401-ALIA MALL",
+                "codes": [
+                    "1401-C",
+                    "1401-E"
+                ]
+            }
+        ],
+        "addressBooks": "1401-C;1401-E"
     }
 ];
 
